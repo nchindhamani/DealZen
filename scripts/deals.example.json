@@ -1,0 +1,31 @@
+[
+  {
+    "product_name": "Samsung 55\" QLED TV (QN55Q80C)",
+    "sku": "QN55Q80CBUXA",
+    "product_category": "Electronics > Televisions > QLED TVs",
+    "price": 499.99,
+    "original_price": 799.99,
+    "store": "Best Buy",
+    "valid_from": "2025-11-27T08:00:00",
+    "valid_to": "2025-11-28T23:59:59",
+    "deal_type": "Black Friday Door Crasher",
+    "in_store_only": true,
+    "deal_conditions": ["Limit 1 per customer", "Valid from 8am"],
+    "attributes": ["QLED", "55-inch", "4K", "Smart TV"]
+  },
+  {
+    "product_name": "Ninja Foodi 8-qt 2-Basket Airfryer (AF300)",
+    "sku": "AF300",
+    "product_category": "Home > Kitchen > Small Appliances > Airfryers",
+    "price": 119.00,
+    "original_price": 179.00,
+    "store": "Walmart",
+    "valid_from": "2025-11-26T00:00:00",
+    "valid_to": "2025-11-30T23:59:59",
+    "deal_type": "Online Special",
+    "in_store_only": false,
+    "deal_conditions": ["While supplies last"],
+    "attributes": ["8-quart", "stainless steel", "2-basket"]
+  }
+]
+
