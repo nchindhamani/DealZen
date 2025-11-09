@@ -1,6 +1,5 @@
 import weaviate
 import weaviate.classes.config as wvc
-from weaviate.classes.query import HybridNearText
 import os
 
 # Get Weaviate and OpenAI API keys from environment variables
@@ -9,12 +8,9 @@ OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 def get_weaviate_client():
     """Establishes connection to the Weaviate instance."""
-    auth_config = weaviate.auth.AuthApiKey(api_key=OPENAI_API_KEY)
-    client = weaviate.connect_to_custom(
-        http_host=WEAVIATE_URL,
-        http_secure=False,
-        grpc_host=WEAVIATE_URL.replace("http://", "").replace("https://", ""),
-        grpc_secure=False,
+    client = weaviate.connect_to_local(
+        host="localhost",
+        port=8080,
         headers={"X-OpenAI-Api-Key": OPENAI_API_KEY}
     )
     return client
@@ -51,7 +47,7 @@ def get_deal_schema():
         wvc.Property(name="store", data_type=wvc.DataType.TEXT, tokenization=wvc.Tokenization.FIELD),
         wvc.Property(name="original_price", data_type=wvc.DataType.NUMBER),
         wvc.Property(name="deal_type", data_type=wvc.DataType.TEXT, tokenization=wvc.Tokenization.FIELD),
-        wvc.Property(name="in_store_only", data_type=wvc.DataType.BOOLEAN),
+        wvc.Property(name="in_store_only", data_type=wvc.DataType.BOOL),
         wvc.Property(name="deal_conditions", data_type=wvc.DataType.TEXT_ARRAY, tokenization=wvc.Tokenization.FIELD),
         wvc.Property(name="full_json", data_type=wvc.DataType.TEXT, skip_vectorization=True),
     ]

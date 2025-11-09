@@ -33,10 +33,14 @@ def main():
         properties=get_deal_schema()
     )
 
-    with open('deals.example.json', 'r') as f:
+    import os
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    deals_file = os.path.join(script_dir, 'deals.example.json')
+    
+    with open(deals_file, 'r') as f:
         data = json.load(f)
 
-    with deals_collection.data.batcher() as batch:
+    with deals_collection.batch.dynamic() as batch:
         for deal in data:
             vector_text = create_vector_text(deal)
             
@@ -55,8 +59,7 @@ def main():
             }
             
             batch.add_object(
-                properties=properties,
-                vector=vector_text  # Generate vector from our custom text
+                properties=properties
             )
     
     print(f"Successfully ingested {len(data)} deals.")
