@@ -44,6 +44,10 @@ def main():
         for deal in data:
             vector_text = create_vector_text(deal)
             
+            # Parse dates from ISO 8601 format strings
+            valid_from = deal.get("valid_from")  # Already in ISO format
+            valid_to = deal.get("valid_to")      # Already in ISO format
+            
             properties = {
                 "product_name": deal.get("product_name"),
                 "sku": deal.get("sku"),
@@ -55,6 +59,8 @@ def main():
                 "deal_type": deal.get("deal_type"),
                 "in_store_only": deal.get("in_store_only"),
                 "deal_conditions": deal.get("deal_conditions"),
+                "valid_from": valid_from,  # ISO 8601 string
+                "valid_to": valid_to,      # ISO 8601 string
                 "full_json": json.dumps(deal),
             }
             

@@ -1,5 +1,7 @@
 import weaviate
 import weaviate.classes.config as wvc
+from weaviate.classes.query import Filter
+from datetime import datetime, timezone
 import os
 
 # Get Weaviate and OpenAI API keys from environment variables
@@ -17,12 +19,20 @@ def get_weaviate_client():
 
 async def perform_hybrid_search(client: weaviate.WeaviateClient, query: str):
     """
-    Performs a hybrid search.
+    Performs a hybrid search with date filtering.
     - Vector search on 'vector_text'
     - Keyword search on 'product_name', 'sku', and 'product_category'
+    - Filters out expired deals (valid_to < current date)
     - Retrieves Top 5 results.
     """
     deals = client.collections.get("Deal")
+    
+    # Get current date in ISO format
+    current_date = datetime.now(timezone.utc).isoformat()
+    
+    # Build filter for non-expired deals
+    # Only show deals where valid_to is null OR valid_to >= current_date
+    date_filter = Filter.by_property("valid_to").is_none() | Filter.by_property("valid_to").greater_or_equal(current_date)
     
     response = deals.query.hybrid(
         query=query,
@@ -30,6 +40,8 @@ async def perform_hybrid_search(client: weaviate.WeaviateClient, query: str):
         query_properties=["vector_text^2", "product_name", "sku", "product_category"],
         # 50/50 blend of vector and keyword
         alpha=0.5,
+        # Filter out expired deals
+        filters=date_filter,
         # Retrieve TOP 5
         limit=5 
     )
@@ -49,6 +61,8 @@ def get_deal_schema():
         wvc.Property(name="deal_type", data_type=wvc.DataType.TEXT, tokenization=wvc.Tokenization.FIELD),
         wvc.Property(name="in_store_only", data_type=wvc.DataType.BOOL),
         wvc.Property(name="deal_conditions", data_type=wvc.DataType.TEXT_ARRAY, tokenization=wvc.Tokenization.FIELD),
+        wvc.Property(name="valid_from", data_type=wvc.DataType.DATE),  # Date filtering
+        wvc.Property(name="valid_to", data_type=wvc.DataType.DATE),    # Date filtering
         wvc.Property(name="full_json", data_type=wvc.DataType.TEXT, skip_vectorization=True),
     ]
 
