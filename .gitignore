@@ -44,6 +44,9 @@ frontend/.vite/
 *.log
 logs/
 
+# Personal interview prep docs (keep local only)
+docs/
+
 # OS
 .DS_Store
 Thumbs.db
