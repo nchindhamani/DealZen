@@ -19,17 +19,23 @@ class RAGPipeline:
         
         all_deals = [json.loads(item['full_json']) for item in search_results]
         
+        # Check if GPT-4o explicitly said "no deals found"
+        no_deals_phrases = ["couldn't find any deals", "couldn't find any specific deals", 
+                           "no deals", "not find any deals", "don't have any deals"]
+        answer_lower = answer.lower()
+        gpt_found_no_deals = any(phrase in answer_lower for phrase in no_deals_phrases)
+        
+        # If GPT-4o says no deals found, return empty list (don't show random deals!)
+        if gpt_found_no_deals:
+            return {"answer": answer, "source_deals": []}
+        
         # Trust GPT-4o's relevance filtering
         # Only show deals that GPT-4o identifies as truly relevant
         if relevant_indices:
             source_deals = [all_deals[i] for i in relevant_indices if i < len(all_deals)]
         else:
-            # If GPT found no relevant deals, show top 3 from hybrid search as fallback
-            source_deals = all_deals[:3]
-        
-        # Final fallback if something went wrong
-        if not source_deals and all_deals:
-            source_deals = [all_deals[0]]
+            # If no indices but GPT has an answer, show no deals (trust GPT)
+            source_deals = []
         
         return {"answer": answer, "source_deals": source_deals}
 
