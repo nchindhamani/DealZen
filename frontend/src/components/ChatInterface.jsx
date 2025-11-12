@@ -23,11 +23,10 @@ const getStoreUrl = (deal) => {
   });
   cleanProductName = cleanProductName.trim().replace(/\s+/g, ' '); // Clean extra spaces
   
-  // For better search results: use cleaned product name + SKU
-  // SKU is most reliable, product name provides context
-  const searchTerm = sku 
-    ? encodeURIComponent(`${cleanProductName} ${sku}`)
-    : encodeURIComponent(cleanProductName);
+  // Strategy: Product name ONLY (no SKU)
+  // Reason: Flyer SKUs often don't match website SKUs (in-store codes, promotional codes, etc.)
+  // Product specs (28 cu. ft., Stainless Steel) are more reliable for search
+  const searchTerm = encodeURIComponent(cleanProductName);
   
   const searchUrls = {
     'HOMEDEPOT': `https://www.homedepot.com/s/${searchTerm}`,
