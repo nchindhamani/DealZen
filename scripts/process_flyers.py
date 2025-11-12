@@ -50,14 +50,32 @@ Each object in the list must conform to the following schema:
 
 --- INSTRUCTIONS ---
 
-1.  **Be Thorough:** Find ALL deals on the page.
+1.  **Be EXTREMELY Thorough:** Extract EVERY SINGLE deal visible on the page, no matter how small or insignificant it seems. This includes:
+    - Power tools and tool kits
+    - Batteries (AA, AAA, power tool batteries, etc.)
+    - Storage containers and totes
+    - Household items
+    - Seasonal decorations
+    - Small accessories
+    - EVERYTHING with a price tag
+    
 2.  **Be Accurate:** Extract prices and names exactly as written.
-3.  **Focus on Complete Deals:** If you see partial/cut-off products at edges or corners, IGNORE them. Only extract deals that are fully visible and readable.
-4.  **Use `null`:** If a non-required field (like `sku` or `original_price`) is not present, use `null`.
-5.  **Infer Booleans:** `in_store_only` should be `true` if it's specified, otherwise `false`.
-6.  **Infer Dates:** If specific dates/times are mentioned, use them. If it's just "Black Friday," you can infer the dates (e.g., Nov 27-28, 2025). If no date is given, use `null`.
-7.  **Store Name:** The user will provide the store name in the prompt. Use that store name for ALL deals. If you can see different branding on the flyer itself, prioritize the visual branding, but default to the provided store name.
-8.  **JSON ONLY:** Your output must start with `[` and end with `]`.
+
+3.  **Scan the ENTIRE image:** Don't miss deals in corners, edges, or smaller sections. Check top, bottom, left, right, and center.
+
+4.  **Focus on Complete Deals:** If you see partial/cut-off products at edges or corners, IGNORE them. Only extract deals that are fully visible and readable.
+
+5.  **Use `null`:** If a non-required field (like `sku` or `original_price`) is not present, use `null`.
+
+6.  **Infer Booleans:** `in_store_only` should be `true` if it's specified, otherwise `false`.
+
+7.  **Infer Dates:** If specific dates/times are mentioned, use them. If it's just "Black Friday," you can infer the dates (e.g., Nov 27-28, 2025). If no date is given, use `null`.
+
+8.  **Store Name:** The user will provide the store name in the prompt. Use that store name for ALL deals. If you can see different branding on the flyer itself, prioritize the visual branding, but default to the provided store name.
+
+9.  **JSON ONLY:** Your output must start with `[` and end with `]`.
+
+CRITICAL: Do NOT skip any deals. If you see 10 products, extract all 10. If you see 50 products, extract all 50.
 """
 
 def encode_image_to_base64(image_path):

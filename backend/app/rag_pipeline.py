@@ -19,16 +19,15 @@ class RAGPipeline:
         
         all_deals = [json.loads(item['full_json']) for item in search_results]
         
-        # Smart filtering: If GPT-4o filtered too aggressively (< 30% of results), 
-        # trust the hybrid search and show all deals
-        # This prevents over-filtering when search already found good semantic matches
-        if relevant_indices and len(relevant_indices) >= len(all_deals) * 0.3:
+        # Trust GPT-4o's relevance filtering
+        # Only show deals that GPT-4o identifies as truly relevant
+        if relevant_indices:
             source_deals = [all_deals[i] for i in relevant_indices if i < len(all_deals)]
         else:
-            # Hybrid search already did semantic matching - show all results
-            source_deals = all_deals[:8]  # Limit to top 8 for UI/UX
+            # If GPT found no relevant deals, show top 3 from hybrid search as fallback
+            source_deals = all_deals[:3]
         
-        # Fallback if something went wrong
+        # Final fallback if something went wrong
         if not source_deals and all_deals:
             source_deals = [all_deals[0]]
         
