@@ -86,7 +86,12 @@ Each object in the list must conform to the following schema:
 
 6.  **Infer Booleans:** `in_store_only` should be `true` if it's specified, otherwise `false`.
 
-7.  **Infer Dates:** If specific dates/times are mentioned, use them. If it's just "Black Friday," you can infer the dates (e.g., Nov 27-28, 2025). If no date is given, use `null`.
+7.  **Infer Dates:** 
+    - If specific dates/times WITH YEAR are mentioned (e.g., "Nov 6, 2025"), use them exactly
+    - If dates WITHOUT YEAR are shown (e.g., "Nov 06 to Nov 26"), ALWAYS use year 2025
+    - If it's just "Black Friday," use Nov 29, 2025 (Black Friday 2025)
+    - IMPORTANT: Default to year 2025 for any dates unless explicitly stated otherwise
+    - If no date is given at all, use `null`
 
 8.  **Store Name:** The user will provide the store name in the prompt. Use that store name for ALL deals. If you can see different branding on the flyer itself, prioritize the visual branding, but default to the provided store name.
 
@@ -159,6 +164,11 @@ def call_gpt4o_vision_api(base64_image_data, mime_type, filename):
 
 STORE NAME: {filename.split('_')[0].upper()}
 Use this store name for all deals unless you see clear different branding in the image.
+
+📅 DATE HANDLING (CRITICAL):
+If you see dates WITHOUT a year (e.g., "Nov 06 to Nov 26"), ALWAYS use 2025 as the year.
+Format all dates as: 2025-MM-DDTHH:MM:SS (e.g., "2025-11-06T00:00:00")
+This is a 2025 Black Friday flyer - all dates should be in 2025.
 
 SCAN EVERY SECTION: Top, middle, bottom, left, right, corners.
 Extract EVERY product that has a price - large items, small items, featured items, background items.
