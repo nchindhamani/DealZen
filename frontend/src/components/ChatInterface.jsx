@@ -13,12 +13,21 @@ const calculateSavings = (deal) => {
 // Helper function to get store shopping URL
 const getStoreUrl = (deal) => {
   const storeName = deal.store.toUpperCase().trim();
-  const productName = encodeURIComponent(deal.product_name);
   const sku = deal.sku || '';
   
-  // Use search URLs with product name + SKU for best accuracy
-  // This is 100% reliable and works for all stores
-  const searchTerm = sku ? `${productName} ${sku}` : productName;
+  // Clean up product name by removing common marketing terms that hurt search accuracy
+  let cleanProductName = deal.product_name;
+  const marketingTerms = ['EXCLUSIVE', 'NEW', 'SPECIAL BUY', 'ONLINE ONLY', 'LIMITED TIME'];
+  marketingTerms.forEach(term => {
+    cleanProductName = cleanProductName.replace(new RegExp(`\\b${term}\\b`, 'gi'), '');
+  });
+  cleanProductName = cleanProductName.trim().replace(/\s+/g, ' '); // Clean extra spaces
+  
+  // For better search results: use cleaned product name + SKU
+  // SKU is most reliable, product name provides context
+  const searchTerm = sku 
+    ? encodeURIComponent(`${cleanProductName} ${sku}`)
+    : encodeURIComponent(cleanProductName);
   
   const searchUrls = {
     'HOMEDEPOT': `https://www.homedepot.com/s/${searchTerm}`,
