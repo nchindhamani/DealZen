@@ -2,82 +2,215 @@ import React, { useState, useRef, useEffect } from 'react';
 import useUserLimits from '../hooks/useUserLimits';
 import { getChatResponse } from '../apiClient';
 
-// DealCard Component
+// Helper function to calculate savings
+const calculateSavings = (deal) => {
+  if (!deal.original_price || deal.original_price <= deal.price) return null;
+  const savingsAmount = deal.original_price - deal.price;
+  const savingsPercent = Math.round((savingsAmount / deal.original_price) * 100);
+  return { amount: savingsAmount, percent: savingsPercent };
+};
+
+// Helper function to get store shopping URL
+const getStoreUrl = (deal) => {
+  const storeName = deal.store.toUpperCase().trim();
+  const productName = encodeURIComponent(deal.product_name);
+  const sku = deal.sku || '';
+  
+  // Try direct product link first (if SKU exists and is valid)
+  if (sku && sku.length > 3) {
+    const directUrls = {
+      'HOMEDEPOT': `https://www.homedepot.com/p/${sku}`,
+      'HOME DEPOT': `https://www.homedepot.com/p/${sku}`,
+      'LOWES': `https://www.lowes.com/pd/${sku}`,
+      'BESTBUY': `https://www.bestbuy.com/site/${sku}.p`,
+      'BEST BUY': `https://www.bestbuy.com/site/${sku}.p`,
+    };
+    
+    if (directUrls[storeName]) {
+      return directUrls[storeName];
+    }
+  }
+  
+  // Fallback to store search with product name + SKU for better accuracy
+  const searchTerm = sku ? `${productName} ${sku}` : productName;
+  const searchUrls = {
+    'HOMEDEPOT': `https://www.homedepot.com/s/${searchTerm}`,
+    'HOME DEPOT': `https://www.homedepot.com/s/${searchTerm}`,
+    'WALMART': `https://www.walmart.com/search?q=${searchTerm}`,
+    'TARGET': `https://www.target.com/s?searchTerm=${searchTerm}`,
+    'BESTBUY': `https://www.bestbuy.com/site/searchpage.jsp?st=${searchTerm}`,
+    'BEST BUY': `https://www.bestbuy.com/site/searchpage.jsp?st=${searchTerm}`,
+    'LOWES': `https://www.lowes.com/search?searchTerm=${searchTerm}`,
+    'KOHLS': `https://www.kohls.com/search.jsp?search=${searchTerm}`,
+    "KOHL'S": `https://www.kohls.com/search.jsp?search=${searchTerm}`,
+    'MACYS': `https://www.macys.com/shop/featured/${searchTerm}`,
+    "MACY'S": `https://www.macys.com/shop/featured/${searchTerm}`,
+  };
+  
+  return searchUrls[storeName] || `https://www.google.com/search?q=${searchTerm}+${storeName}`;
+};
+
+// Helper function to handle Shop Now click
+const handleShopNow = (deal) => {
+  const url = getStoreUrl(deal);
+  
+  // Log for analytics (optional)
+  console.log('Shop Now clicked:', {
+    product: deal.product_name,
+    store: deal.store,
+    price: deal.price,
+    url: url
+  });
+  
+  // Open in new tab
+  window.open(url, '_blank', 'noopener,noreferrer');
+};
+
+// DealCard Component (Improved UI)
 const DealCard = ({ deal }) => {
   const [expanded, setExpanded] = React.useState(false);
+  const savings = calculateSavings(deal);
   
   return (
-    <div className="overflow-hidden bg-white rounded-2xl shadow-xl border border-gray-100 transform transition-all hover:scale-[1.01]">
-      <div className="p-5 border-b border-gray-100">
-        <h3 className="text-lg font-bold text-gray-900">{deal.product_name}</h3>
-        <p className="text-sm font-medium text-gray-500">Store: {deal.store}</p>
-        {deal.sku && <p className="text-xs text-gray-400 mt-1">SKU: {deal.sku}</p>}
-      </div>
-      <div className="p-5 bg-gray-50/70">
-        <div className="flex items-baseline">
-          <span className="text-4xl font-extrabold text-red-600">${deal.price.toFixed(2)}</span>
-          {deal.original_price && deal.original_price > 0 && (
-            <span className="ml-3 text-xl text-gray-400 line-through">${deal.original_price.toFixed(2)}</span>
+    <div className="relative overflow-hidden bg-white rounded-2xl shadow-xl border border-gray-100 transform transition-all hover:shadow-2xl hover:-translate-y-1">
+      
+      {/* Savings Badge (Top-Right) */}
+      {savings && (
+        <div className="absolute top-4 right-4 z-10 bg-gradient-to-r from-red-600 to-red-500 text-white px-4 py-2 rounded-full shadow-lg">
+          <div className="text-center">
+            <div className="text-lg font-black leading-tight">${savings.amount.toFixed(0)} OFF</div>
+            <div className="text-xs font-semibold opacity-90">{savings.percent}% SAVINGS</div>
+          </div>
+        </div>
+      )}
+      
+      {/* Hero Section with Gradient Background */}
+      <div className="bg-gradient-to-br from-indigo-50 via-purple-50 to-pink-50 p-6 pb-8">
+        <div className="pr-24"> {/* Add padding to avoid overlap with savings badge */}
+          <h3 className="text-xl font-extrabold text-gray-900 mb-3 leading-tight">
+            {deal.product_name}
+          </h3>
+          
+          {/* Store Badge and Type */}
+          <div className="flex flex-wrap items-center gap-2 mb-4">
+            <span className="inline-flex items-center px-3 py-1 bg-white rounded-full shadow-sm">
+              <span className="text-sm font-bold text-indigo-600">🏪 {deal.store}</span>
+            </span>
+            {deal.in_store_only && (
+              <span className="inline-flex items-center px-3 py-1 bg-yellow-100 text-yellow-800 rounded-full text-xs font-semibold">
+                📍 In-Store Only
+              </span>
+            )}
+            {!deal.in_store_only && deal.deal_type && (
+              <span className="inline-flex items-center px-3 py-1 bg-indigo-100 text-indigo-700 rounded-full text-xs font-semibold">
+                {deal.deal_type}
+              </span>
+            )}
+          </div>
+          
+          {/* Price (Large and Prominent) */}
+          <div className="flex items-end gap-3">
+            <div className="text-5xl font-black text-indigo-600">
+              ${Math.floor(deal.price)}
+              <span className="text-3xl">.{(deal.price % 1).toFixed(2).slice(2)}</span>
+            </div>
+            {deal.original_price && deal.original_price > deal.price && (
+              <div className="text-2xl text-gray-400 line-through mb-2">
+                ${deal.original_price.toFixed(0)}
+              </div>
+            )}
+          </div>
+          
+          {/* SKU (Small, Subtle) */}
+          {deal.sku && (
+            <p className="text-xs text-gray-500 mt-2">SKU: {deal.sku}</p>
           )}
         </div>
-        {deal.bundle_deal && deal.free_item && (
-          <div className="mt-3 p-3 bg-green-50 border border-green-200 rounded-lg">
-            <p className="text-sm font-semibold text-green-800">🎁 Bundle Deal!</p>
-            <p className="text-xs text-green-700 mt-1">Buy this + Get: {deal.free_item}</p>
-          </div>
-        )}
       </div>
       
+      {/* Bundle Deal Highlight */}
+      {deal.bundle_deal && deal.free_item && (
+        <div className="mx-4 -mt-4 mb-4 p-4 bg-gradient-to-r from-green-500 to-emerald-500 text-white rounded-xl shadow-lg">
+          <div className="flex items-start gap-3">
+            <span className="text-2xl">🎁</span>
+            <div>
+              <p className="font-bold text-sm">Special Bundle Deal!</p>
+              <p className="text-sm opacity-90 mt-1">Buy this + Get: {deal.free_item}</p>
+            </div>
+          </div>
+        </div>
+      )}
+      
+      {/* Expanded Details */}
       {expanded && (
-        <div className="p-5 border-t border-gray-100 bg-gray-50">
+        <div className="px-6 py-4 bg-gray-50 border-t border-gray-100">
           {deal.bundle_deal && deal.required_purchase && (
-            <div className="mb-3 p-3 bg-blue-50 border border-blue-200 rounded">
-              <h4 className="text-sm font-semibold text-blue-800 mb-1">📦 How to Get This Deal:</h4>
-              <p className="text-sm text-blue-700">Purchase: {deal.required_purchase}</p>
+            <div className="mb-4 p-4 bg-blue-50 border border-blue-200 rounded-lg">
+              <h4 className="text-sm font-bold text-blue-900 mb-2">📦 How to Get This Deal:</h4>
+              <p className="text-sm text-blue-800">Purchase: {deal.required_purchase}</p>
               {deal.free_item && (
-                <p className="text-sm text-blue-700 mt-1">Get Free: {deal.free_item}</p>
+                <p className="text-sm text-blue-800 mt-1">Get Free: {deal.free_item}</p>
               )}
             </div>
           )}
+          
           {deal.deal_conditions && deal.deal_conditions.length > 0 && (
-            <div className="mb-3">
-              <h4 className="text-sm font-semibold text-gray-700 mb-1">Conditions:</h4>
-              <ul className="text-sm text-gray-600 list-disc list-inside">
+            <div className="mb-4">
+              <h4 className="text-sm font-bold text-gray-800 mb-2">📋 Conditions:</h4>
+              <ul className="text-sm text-gray-600 space-y-1">
                 {deal.deal_conditions.map((condition, idx) => (
-                  <li key={idx}>{condition}</li>
+                  <li key={idx} className="flex items-start gap-2">
+                    <span className="text-indigo-500 mt-0.5">•</span>
+                    <span>{condition}</span>
+                  </li>
                 ))}
               </ul>
             </div>
           )}
+          
           {deal.attributes && deal.attributes.length > 0 && (
-            <div className="mb-3">
-              <h4 className="text-sm font-semibold text-gray-700 mb-1">Features:</h4>
+            <div className="mb-4">
+              <h4 className="text-sm font-bold text-gray-800 mb-2">✨ Features:</h4>
               <div className="flex flex-wrap gap-2">
                 {deal.attributes.map((attr, idx) => (
-                  <span key={idx} className="px-2 py-1 bg-indigo-100 text-indigo-700 rounded text-xs">
+                  <span key={idx} className="px-3 py-1 bg-indigo-100 text-indigo-700 rounded-full text-xs font-medium">
                     {attr}
                   </span>
                 ))}
               </div>
             </div>
           )}
+          
           {deal.valid_from && deal.valid_to && (
-            <div className="text-xs text-gray-500 mt-2">
-              Valid: {new Date(deal.valid_from).toLocaleDateString()} - {new Date(deal.valid_to).toLocaleDateString()}
+            <div className="text-xs text-gray-500 bg-gray-100 px-3 py-2 rounded">
+              ⏰ Valid: {new Date(deal.valid_from).toLocaleDateString()} - {new Date(deal.valid_to).toLocaleDateString()}
             </div>
           )}
         </div>
       )}
       
-      <div className="flex items-center justify-between p-5">
-        <span className={`inline-block px-3 py-1 text-xs font-semibold uppercase rounded-full ${deal.in_store_only ? 'bg-yellow-100 text-yellow-800' : 'bg-indigo-100 text-indigo-800'}`}>
-          {deal.in_store_only ? 'In-Store Only' : deal.deal_type}
-        </span>
+      {/* Action Buttons */}
+      <div className="p-4 bg-white space-y-3">
+        {/* Primary CTA: Shop Now */}
         <button 
-          onClick={() => setExpanded(!expanded)} 
-          className="text-sm font-semibold text-indigo-600 hover:text-indigo-500"
+          onClick={() => handleShopNow(deal)}
+          className="w-full flex items-center justify-center gap-3 px-6 py-3.5 bg-gradient-to-r from-indigo-600 to-indigo-500 hover:from-indigo-700 hover:to-indigo-600 text-white rounded-xl font-bold text-base shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 transition-all"
         >
-          {expanded ? 'Hide Details' : 'View Deal'} {expanded ? '↑' : '→'}
+          <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+          </svg>
+          Shop Now at {deal.store}
+        </button>
+        
+        {/* Secondary Action: View Full Details */}
+        <button 
+          onClick={() => setExpanded(!expanded)}
+          className="w-full flex items-center justify-center gap-2 px-4 py-2 bg-gray-100 hover:bg-gray-200 text-gray-700 rounded-lg font-semibold text-sm transition-colors"
+        >
+          <span>{expanded ? 'Hide' : 'View'} Full Details</span>
+          <svg className={`w-4 h-4 transform transition-transform ${expanded ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+          </svg>
         </button>
       </div>
     </div>
