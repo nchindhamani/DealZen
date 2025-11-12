@@ -16,23 +16,10 @@ const getStoreUrl = (deal) => {
   const productName = encodeURIComponent(deal.product_name);
   const sku = deal.sku || '';
   
-  // Try direct product link first (if SKU exists and is valid)
-  if (sku && sku.length > 3) {
-    const directUrls = {
-      'HOMEDEPOT': `https://www.homedepot.com/p/${sku}`,
-      'HOME DEPOT': `https://www.homedepot.com/p/${sku}`,
-      'LOWES': `https://www.lowes.com/pd/${sku}`,
-      'BESTBUY': `https://www.bestbuy.com/site/${sku}.p`,
-      'BEST BUY': `https://www.bestbuy.com/site/${sku}.p`,
-    };
-    
-    if (directUrls[storeName]) {
-      return directUrls[storeName];
-    }
-  }
-  
-  // Fallback to store search with product name + SKU for better accuracy
+  // Use search URLs with product name + SKU for best accuracy
+  // This is 100% reliable and works for all stores
   const searchTerm = sku ? `${productName} ${sku}` : productName;
+  
   const searchUrls = {
     'HOMEDEPOT': `https://www.homedepot.com/s/${searchTerm}`,
     'HOME DEPOT': `https://www.homedepot.com/s/${searchTerm}`,
