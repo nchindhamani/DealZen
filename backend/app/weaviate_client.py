@@ -4,16 +4,15 @@ from weaviate.classes.query import Filter
 from datetime import datetime, timezone
 import os
 
-# Get Weaviate and OpenAI API keys from environment variables
-WEAVIATE_URL = os.getenv("WEAVIATE_URL", "http://localhost:8080")
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-
 def get_weaviate_client():
     """Establishes connection to the Weaviate instance."""
+    # Get API key at runtime (after .env is loaded)
+    openai_api_key = os.getenv("OPENAI_API_KEY")
+    
     client = weaviate.connect_to_local(
         host="localhost",
         port=8080,
-        headers={"X-OpenAI-Api-Key": OPENAI_API_KEY}
+        headers={"X-OpenAI-Api-Key": openai_api_key}
     )
     return client
 
@@ -31,8 +30,9 @@ async def perform_hybrid_search(client: weaviate.WeaviateClient, query: str):
     current_date = datetime.now(timezone.utc).isoformat()
     
     # Build filter for non-expired deals
-    # Only show deals where valid_to is null OR valid_to >= current_date
-    date_filter = Filter.by_property("valid_to").is_none() | Filter.by_property("valid_to").greater_or_equal(current_date)
+    # Only show deals where valid_to >= current_date
+    # (Removed null check as it requires indexNullState configuration)
+    date_filter = Filter.by_property("valid_to").greater_or_equal(current_date)
     
     response = deals.query.hybrid(
         query=query,
@@ -42,8 +42,8 @@ async def perform_hybrid_search(client: weaviate.WeaviateClient, query: str):
         alpha=0.5,
         # Filter out expired deals
         filters=date_filter,
-        # Retrieve TOP 5
-        limit=5 
+        # Retrieve TOP 10 (increased from 5 for better coverage)
+        limit=10
     )
     
     return [item.properties for item in response.objects]

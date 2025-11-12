@@ -2,6 +2,12 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from .schemas import QueryRequest, ChatResponse
 from .rag_pipeline import RAGPipeline
+import os
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+env_path = os.path.join(os.path.dirname(__file__), '../.env')
+load_dotenv(dotenv_path=env_path)
 
 app = FastAPI(title="DealZen API")
 rag_pipeline = RAGPipeline()

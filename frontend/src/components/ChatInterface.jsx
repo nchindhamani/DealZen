@@ -3,28 +3,71 @@ import useUserLimits from '../hooks/useUserLimits';
 import { getChatResponse } from '../apiClient';
 
 // DealCard Component
-const DealCard = ({ deal }) => (
-  <div className="overflow-hidden bg-white rounded-2xl shadow-xl border border-gray-100 transform transition-all hover:scale-[1.01]">
-    <div className="p-5 border-b border-gray-100">
-      <h3 className="text-lg font-bold text-gray-900">{deal.product_name}</h3>
-      <p className="text-sm font-medium text-gray-500">Store: {deal.store}</p>
-    </div>
-    <div className="p-5 bg-gray-50/70">
-      <div className="flex items-baseline">
-        <span className="text-4xl font-extrabold text-red-600">${deal.price.toFixed(2)}</span>
-        {deal.original_price && (
-          <span className="ml-3 text-xl text-gray-400 line-through">${deal.original_price.toFixed(2)}</span>
-        )}
+const DealCard = ({ deal }) => {
+  const [expanded, setExpanded] = React.useState(false);
+  
+  return (
+    <div className="overflow-hidden bg-white rounded-2xl shadow-xl border border-gray-100 transform transition-all hover:scale-[1.01]">
+      <div className="p-5 border-b border-gray-100">
+        <h3 className="text-lg font-bold text-gray-900">{deal.product_name}</h3>
+        <p className="text-sm font-medium text-gray-500">Store: {deal.store}</p>
+        {deal.sku && <p className="text-xs text-gray-400 mt-1">SKU: {deal.sku}</p>}
+      </div>
+      <div className="p-5 bg-gray-50/70">
+        <div className="flex items-baseline">
+          <span className="text-4xl font-extrabold text-red-600">${deal.price.toFixed(2)}</span>
+          {deal.original_price && deal.original_price > 0 && (
+            <span className="ml-3 text-xl text-gray-400 line-through">${deal.original_price.toFixed(2)}</span>
+          )}
+        </div>
+      </div>
+      
+      {expanded && (
+        <div className="p-5 border-t border-gray-100 bg-gray-50">
+          {deal.deal_conditions && deal.deal_conditions.length > 0 && (
+            <div className="mb-3">
+              <h4 className="text-sm font-semibold text-gray-700 mb-1">Conditions:</h4>
+              <ul className="text-sm text-gray-600 list-disc list-inside">
+                {deal.deal_conditions.map((condition, idx) => (
+                  <li key={idx}>{condition}</li>
+                ))}
+              </ul>
+            </div>
+          )}
+          {deal.attributes && deal.attributes.length > 0 && (
+            <div className="mb-3">
+              <h4 className="text-sm font-semibold text-gray-700 mb-1">Features:</h4>
+              <div className="flex flex-wrap gap-2">
+                {deal.attributes.map((attr, idx) => (
+                  <span key={idx} className="px-2 py-1 bg-indigo-100 text-indigo-700 rounded text-xs">
+                    {attr}
+                  </span>
+                ))}
+              </div>
+            </div>
+          )}
+          {deal.valid_from && deal.valid_to && (
+            <div className="text-xs text-gray-500 mt-2">
+              Valid: {new Date(deal.valid_from).toLocaleDateString()} - {new Date(deal.valid_to).toLocaleDateString()}
+            </div>
+          )}
+        </div>
+      )}
+      
+      <div className="flex items-center justify-between p-5">
+        <span className={`inline-block px-3 py-1 text-xs font-semibold uppercase rounded-full ${deal.in_store_only ? 'bg-yellow-100 text-yellow-800' : 'bg-indigo-100 text-indigo-800'}`}>
+          {deal.in_store_only ? 'In-Store Only' : deal.deal_type}
+        </span>
+        <button 
+          onClick={() => setExpanded(!expanded)} 
+          className="text-sm font-semibold text-indigo-600 hover:text-indigo-500"
+        >
+          {expanded ? 'Hide Details' : 'View Deal'} {expanded ? '↑' : '→'}
+        </button>
       </div>
     </div>
-    <div className="flex items-center justify-between p-5">
-      <span className={`inline-block px-3 py-1 text-xs font-semibold uppercase rounded-full ${deal.in_store_only ? 'bg-yellow-100 text-yellow-800' : 'bg-indigo-100 text-indigo-800'}`}>
-        {deal.in_store_only ? 'In-Store Only' : deal.deal_type}
-      </span>
-      <a href="#" onClick={(e) => e.preventDefault()} className="text-sm font-semibold text-indigo-600 hover:text-indigo-500">View Deal &rarr;</a>
-    </div>
-  </div>
-);
+  );
+};
 
 // ChatBubble Component
 const ChatBubble = ({ message }) => {

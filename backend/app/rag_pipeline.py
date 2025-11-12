@@ -3,11 +3,10 @@ from openai import OpenAI
 from .weaviate_client import get_weaviate_client, perform_hybrid_search
 import os
 
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
-
 class RAGPipeline:
     def __init__(self):
         self.weaviate_client = get_weaviate_client()
+        self.openai_client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
     async def answer_query(self, query: str):
         search_results = await perform_hybrid_search(self.weaviate_client, query)
@@ -43,8 +42,8 @@ class RAGPipeline:
         If the deals do not contain the answer, say "I'm sorry, I couldn't find any deals for that."
         Be friendly, concise, and helpful. Summarize the deals that match the query.
         
-        IMPORTANT: After your answer, on a new line, write "RELEVANT_DEALS:" followed by a comma-separated list of deal numbers (1, 2, 3, etc.) that are actually relevant to the user's query.
-        Only include deals you actually mention or that directly answer the user's question.
+        IMPORTANT: After your answer, on a new line, write "RELEVANT_DEALS:" followed by a comma-separated list of deal numbers (1, 2, 3, etc.) that are relevant to the user's query.
+        Include ALL deals that match the user's intent, even if you don't mention every single one in your answer. Be generous in determining relevance.
         
         Example format:
         [Your friendly answer about the deals]
@@ -54,7 +53,7 @@ class RAGPipeline:
         {context}
         """
         
-        response = client.chat.completions.create(
+        response = self.openai_client.chat.completions.create(
             model="gpt-4o",
             messages=[
                 {"role": "system", "content": system_prompt},
@@ -99,7 +98,7 @@ class RAGPipeline:
         {context}
         """
         
-        response = client.chat.completions.create(
+        response = self.openai_client.chat.completions.create(
             model="gpt-4o",
             messages=[
                 {"role": "system", "content": system_prompt},
