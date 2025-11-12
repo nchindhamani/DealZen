@@ -25,7 +25,18 @@ client = OpenAI(api_key=OPENAI_API_KEY)
 # --- The "Mega-Prompt" for GPT-4o Vision ---
 # This is the most critical part. It defines the extraction task.
 EXTRACTION_SYSTEM_PROMPT = """
-You are a precision data extraction engine. Your task is to analyze an image of a retail flyer and extract every single deal or product promotion you see.
+You are a precision retail flyer scanner. Your ONLY job is to find and extract EVERY SINGLE PRODUCT 
+that has a price on this flyer image, regardless of type, size, or location.
+
+CRITICAL RULES:
+1. Scan the ENTIRE image systematically: top to bottom, left to right, center AND corners
+2. Extract ALL products with prices - do NOT filter by category or importance
+3. Treat large featured items and small corner items EQUALLY
+4. If you see a price tag ($X.XX) and product name, extract it
+5. Do NOT assume what matters - extract EVERYTHING
+6. Missing items = extraction failure
+
+Your goal: Maximum completeness. Every product with a price must be captured.
 
 You MUST return your answer *only* as a valid JSON list (an array) of JSON objects.
 
@@ -53,20 +64,23 @@ Each object in the list must conform to the following schema:
 
 --- INSTRUCTIONS ---
 
-1.  **Be EXTREMELY Thorough:** Extract EVERY SINGLE deal visible on the page, no matter how small or insignificant it seems. This includes:
-    - Power tools and tool kits
-    - Batteries (AA, AAA, power tool batteries, etc.)
-    - Storage containers and totes
-    - Household items
-    - Seasonal decorations
-    - Small accessories
-    - EVERYTHING with a price tag
+1.  **Be EXTREMELY Thorough:** Extract EVERY SINGLE product with a price, no matter:
+    - How small or large it appears
+    - What category it belongs to
+    - Where it's located on the page
+    - How prominently it's featured
     
-2.  **Be Accurate:** Extract prices and names exactly as written.
+    If it has a price tag and product name → EXTRACT IT.
+    
+2.  **Be Accurate:** Extract prices and product names exactly as written.
 
-3.  **Scan the ENTIRE image:** Don't miss deals in corners, edges, or smaller sections. Check top, bottom, left, right, and center.
-
-4.  **Focus on Complete Deals:** If you see partial/cut-off products at edges or corners, IGNORE them. Only extract deals that are fully visible and readable.
+3.  **Systematic Scanning:** Scan the image in a grid pattern:
+    - Start top-left, move right
+    - Then middle-left, move right  
+    - Then bottom-left, move right
+    - Don't skip ANY section
+    
+4.  **Focus on Complete Deals:** If you see partial/cut-off products at edges, IGNORE them. Only extract products that are fully visible and readable.
 
 5.  **Use `null`:** If a non-required field (like `sku` or `original_price`) is not present, use `null`.
 
@@ -127,14 +141,16 @@ def call_gpt4o_vision_api(base64_image_data, mime_type, filename):
                     "content": [
                         {
                             "type": "text",
-                            "text": f"""Extract all deals from this flyer image.
+                            "text": f"""Extract ALL deals from this flyer image.
 
 STORE NAME: {filename.split('_')[0].upper()}
 Use this store name for all deals unless you see clear different branding in the image.
 
-IMPORTANT: This may be a screenshot with edges of other pages visible. Focus only on the main, center content. Ignore any partial/cut-off deals at the edges or corners.
+SCAN EVERY SECTION: Top, middle, bottom, left, right, corners.
+Extract EVERY product that has a price - large items, small items, featured items, background items.
 
-Extract only complete, fully visible deals."""
+Your extraction count target: If you see 50 items, extract 50. If you see 100 items, extract 100.
+Do not stop early. Extract until every priced product is captured."""
                         },
                         {
                             "type": "image_url",
@@ -145,7 +161,7 @@ Extract only complete, fully visible deals."""
                     ]
                 }
             ],
-            max_tokens=4096, # Give it plenty of space for JSON
+            max_tokens=16384, # Increased from 4096 to allow comprehensive extraction
             temperature=0.1 # Be precise, not creative
         )
         
