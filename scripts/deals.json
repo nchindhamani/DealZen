@@ -1,3058 +1,7 @@
 [
   {
-    "product_name": "EXCLUSIVE 9' Kingston Artificial Garland",
-    "sku": "1011095905",
-    "product_category": "Holiday Decorations",
-    "price": 5.98,
-    "original_price": null,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Print weekly ad",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": [
-      "Indoor",
-      "Outdoor"
-    ]
-  },
-  {
-    "product_name": "EXCLUSIVE Artificial Holiday Greenery",
-    "sku": "1007655600, 1011212011",
-    "product_category": "Holiday Decorations",
-    "price": 9.98,
-    "original_price": null,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Print weekly ad",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": [
-      "50' Garland",
-      "24\" Wreath with Bow"
-    ]
-  },
-  {
-    "product_name": "EXCLUSIVE 150-Light LED Vintage Mini Set",
-    "sku": "1013854059, 1013854055",
-    "product_category": "Holiday Decorations",
-    "price": 19.98,
-    "original_price": null,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Print weekly ad",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": [
-      "Multicolor",
-      "Warm White"
-    ]
-  },
-  {
-    "product_name": "EXCLUSIVE 3 pc. LED Pre-Lit Collapsible Snowmen Family",
-    "sku": "1013864424",
-    "product_category": "Holiday Decorations",
-    "price": 99.0,
-    "original_price": null,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [
-      "While supplies last"
-    ],
-    "attributes": [
-      "Collapsible Design",
-      "Easy Storage"
-    ]
-  },
-  {
-    "product_name": "EXCLUSIVE 3 pc. LED Pre-Lit Candy Canes",
-    "sku": "1009357853",
-    "product_category": "Holiday Decorations",
-    "price": 19.98,
-    "original_price": null,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [
-      "While supplies last"
-    ],
-    "attributes": [
-      "Decorating Driveways",
-      "Sidewalks"
-    ]
-  },
-  {
-    "product_name": "EXCLUSIVE 2 pc. LED Pre-Lit Spiral Tree Set",
-    "sku": "1001777426",
-    "product_category": "Holiday Decorations",
-    "price": 49.98,
-    "original_price": null,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Print weekly ad",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": [
-      "220 Warm White Lights"
-    ]
-  },
-  {
-    "product_name": "EXCLUSIVE 7.5' LED Pre-Lit Nostalgic Fir Artificial Christmas Tree",
-    "sku": "1013618111",
-    "product_category": "Holiday Decorations",
-    "price": 199.0,
-    "original_price": null,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Print weekly ad",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": [
-      "700 Color-Changing Lights",
-      "2,825 Traditional Tips"
-    ]
-  },
-  {
-    "product_name": "EXCLUSIVE LED Pre-Lit Wire Reindeer",
-    "sku": "1001788252, 1001788254",
-    "product_category": "Holiday Decorations",
-    "price": 39.98,
-    "original_price": null,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Print weekly ad",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": [
-      "24.5\" Doe",
-      "48\" Reindeer"
-    ]
-  },
-  {
-    "product_name": "EXCLUSIVE 75 pc. Light Clips",
-    "sku": "233682",
-    "product_category": "Holiday Prep Essentials",
-    "price": 7.98,
-    "original_price": null,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Print weekly ad",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": [
-      "Use with String Lights",
-      "Rope Lights"
-    ]
-  },
-  {
-    "product_name": "16-Pack Outdoor Light Clips",
-    "sku": "100015757",
-    "product_category": "Holiday Prep Essentials",
-    "price": 9.93,
-    "original_price": null,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Print weekly ad",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": [
-      "Includes 16 Clips",
-      "20 Command Strips"
-    ]
-  },
-  {
-    "product_name": "EXCLUSIVE 12' Indoor/Outdoor Triple Tap Green Extension Cord",
-    "sku": "1013862931",
-    "product_category": "Holiday Prep Essentials",
-    "price": 12.88,
-    "original_price": null,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Print weekly ad",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": [
-      "3-Outlet",
-      "13-Amp Capacity"
-    ]
-  },
-  {
-    "product_name": "EXCLUSIVE 75' Indoor/Outdoor Triple Tap Green Extension Cord",
-    "sku": "1013862933",
-    "product_category": "Holiday Prep Essentials",
-    "price": 24.88,
-    "original_price": null,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Print weekly ad",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": [
-      "3-Outlet",
-      "10-Amp Capacity"
-    ]
-  },
-  {
-    "product_name": "EXCLUSIVE 4-Pack Indoor/Outdoor Wireless Receiver",
-    "sku": "1013888311",
-    "product_category": "Holiday Prep Essentials",
-    "price": 22.88,
-    "original_price": null,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [
-      "While supplies last"
-    ],
-    "attributes": [
-      "Includes Two Remotes"
-    ]
-  },
-  {
-    "product_name": "6' Fiberglass Step Ladder, Type I",
-    "sku": "1013922180",
-    "product_category": "Holiday Prep Essentials",
-    "price": 59.88,
-    "original_price": 129.0,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": [
-      "250 lb Capacity"
-    ]
-  },
-  {
-    "product_name": "7.5' LED Pre-Lit Slim Jackson Noble Fir Artificial Christmas Tree",
-    "sku": "1005355647",
-    "product_category": "Home > Holiday Decorations > Christmas Trees",
-    "price": 199.0,
-    "original_price": null,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Exclusive",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": [
-      "7.5'",
-      "LED",
-      "Pre-Lit",
-      "Slim",
-      "Artificial"
-    ]
-  },
-  {
-    "product_name": "7.5' Quick-Set LED Pre-Lit Jackson Noble Fir Artificial Christmas Tree",
-    "sku": "1005956832",
-    "product_category": "Home > Holiday Decorations > Christmas Trees",
-    "price": 299.0,
-    "original_price": null,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Exclusive",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": [
-      "7.5'",
-      "Quick-Set",
-      "LED",
-      "Pre-Lit",
-      "Artificial"
-    ]
-  },
-  {
-    "product_name": "9' LED Pre-Lit Jackson Noble Fir Artificial Christmas Tree",
-    "sku": "1006215641",
-    "product_category": "Home > Holiday Decorations > Christmas Trees",
-    "price": 449.0,
-    "original_price": null,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Exclusive",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": [
-      "9'",
-      "LED",
-      "Pre-Lit",
-      "Artificial"
-    ]
-  },
-  {
-    "product_name": "12' LED Pre-Lit Jackson Noble Fir Artificial Christmas Tree",
-    "sku": "312835905",
-    "product_category": "Home > Holiday Decorations > Christmas Trees",
-    "price": 799.0,
-    "original_price": null,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Exclusive",
-    "in_store_only": true,
-    "deal_conditions": [
-      "Online Only"
-    ],
-    "attributes": [
-      "12'",
-      "LED",
-      "Pre-Lit",
-      "Artificial"
-    ]
-  },
-  {
-    "product_name": "EXCLUSIVE Pre-Lit LED Christmas Inflatables",
-    "sku": "101367692, 101367690, 1003168144",
-    "product_category": "Home > Holiday Decorations > Inflatables",
-    "price": 29.98,
-    "original_price": null,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Exclusive",
-    "in_store_only": false,
-    "deal_conditions": [
-      "Choose 3.5' Santa, 3.5' snowman or 3.5' reindeer"
-    ],
-    "attributes": [
-      "Pre-Lit",
-      "LED",
-      "Inflatables"
-    ]
-  },
-  {
-    "product_name": "Pre-lit LED Character Inflatables",
-    "sku": "1011140283, 1013616144, 1013616107",
-    "product_category": "Home > Holiday Decorations > Inflatables",
-    "price": 44.98,
-    "original_price": null,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Exclusive",
-    "in_store_only": false,
-    "deal_conditions": [
-      "Choose from 4' Grinch, 4' Olaf or 3.5' Minion"
-    ],
-    "attributes": [
-      "Pre-Lit",
-      "LED",
-      "Character",
-      "Inflatables"
-    ]
-  },
-  {
-    "product_name": "EXCLUSIVE 100-Light LED Mini Set",
-    "sku": "1011034149, 1011034146",
-    "product_category": "Home > Holiday Decorations > Lights",
-    "price": 4.84,
-    "original_price": null,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Exclusive",
-    "in_store_only": false,
-    "deal_conditions": [
-      "Available in warm white or multicolor"
-    ],
-    "attributes": [
-      "100-Light",
-      "LED",
-      "Mini Set"
-    ]
-  },
-  {
-    "product_name": "EXCLUSIVE 50-Light LED Mini Set",
-    "sku": "1004416996, 1004435912",
-    "product_category": "Home > Holiday Decorations > Lights",
-    "price": 5.98,
-    "original_price": null,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Exclusive",
-    "in_store_only": false,
-    "deal_conditions": [
-      "Available in warm white or multicolor"
-    ],
-    "attributes": [
-      "50-Light",
-      "LED",
-      "Mini Set"
-    ]
-  },
-  {
-    "product_name": "EXCLUSIVE LED Faceted String Light",
-    "sku": "1003263091, 101054257",
-    "product_category": "Home > Holiday Decorations > Lights",
-    "price": 7.84,
-    "original_price": null,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Exclusive",
-    "in_store_only": false,
-    "deal_conditions": [
-      "Available in 24-light warm white or 25-light red, green and white"
-    ],
-    "attributes": [
-      "LED",
-      "Faceted",
-      "String Light"
-    ]
-  },
-  {
-    "product_name": "EXCLUSIVE 300-Light LED Mini Set",
-    "sku": "1013888675, 1013906229",
-    "product_category": "Home > Holiday Decorations > Lights",
-    "price": 14.98,
-    "original_price": null,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Exclusive",
-    "in_store_only": false,
-    "deal_conditions": [
-      "Available in warm white or multicolor"
-    ],
-    "attributes": [
-      "300-Light",
-      "LED",
-      "Mini Set"
-    ]
-  },
-  {
-    "product_name": "EXCLUSIVE StyleWell Artificial Fiddle Leaf Fig Tree",
-    "sku": "327084147",
-    "product_category": null,
-    "price": 99.88,
-    "original_price": 199.99,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": []
-  },
-  {
-    "product_name": "EXCLUSIVE StyleWell Gordon Velvet Rectangle Sofa",
-    "sku": "333510320",
-    "product_category": null,
-    "price": 299,
-    "original_price": 499,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": []
-  },
-  {
-    "product_name": "EXCLUSIVE StyleWell Arched 5-Shelf Bookcase",
-    "sku": "332083255",
-    "product_category": null,
-    "price": 329,
-    "original_price": 389,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": []
-  },
-  {
-    "product_name": "EXCLUSIVE Home Decorators Collection 8-Door Armoire",
-    "sku": "302750421",
-    "product_category": null,
-    "price": 450,
-    "original_price": 742,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": []
-  },
-  {
-    "product_name": "FUFU&GAGA 6-Drawer Vanity Desk",
-    "sku": "319536859",
-    "product_category": null,
-    "price": 179,
-    "original_price": 269,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": []
-  },
-  {
-    "product_name": "FUFU&GAGA 75\" TV Stand",
-    "sku": "335636169",
-    "product_category": null,
-    "price": 350,
-    "original_price": 699,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": []
-  },
-  {
-    "product_name": "EXCLUSIVE Home Decorators Collection Holbrook Hall Tree",
-    "sku": "309999859",
-    "product_category": null,
-    "price": 999,
-    "original_price": 1529,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": []
-  },
-  {
-    "product_name": "Linenwing Crossed Leg Office Chair",
-    "sku": "320000000",
-    "product_category": null,
-    "price": 99,
-    "original_price": 135,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": []
-  },
-  {
-    "product_name": "Titan Pro 8500 MAX 4D Reclining Massage Chair",
-    "sku": "320000000",
-    "product_category": null,
-    "price": 2999,
-    "original_price": 6999,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": []
-  },
-  {
-    "product_name": "EXCLUSIVE Home Decorators Collection Boucle Pouf Ottoman",
-    "sku": "303028758",
-    "product_category": null,
-    "price": 69.88,
-    "original_price": 149,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": []
-  },
-  {
-    "product_name": "EXCLUSIVE Home Decorators Collection Bellrick Accent Table",
-    "sku": "303028758",
-    "product_category": null,
-    "price": 64,
-    "original_price": 119,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": []
-  },
-  {
-    "product_name": "EXCLUSIVE Home Decorators Collection Idlewood 2 pc. Dining Chair Set",
-    "sku": "303028758",
-    "product_category": null,
-    "price": 269,
-    "original_price": 379,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": []
-  },
-  {
-    "product_name": "EXCLUSIVE Home Decorators Collection Marsden Queen Bed Frame",
-    "sku": "303028758",
-    "product_category": null,
-    "price": 499,
-    "original_price": 849,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": []
-  },
-  {
-    "product_name": "Jonathan Y 8'x10' Modern Persian Light Gray Area Rug",
-    "sku": "320000000",
-    "product_category": null,
-    "price": 80,
-    "original_price": 135,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": []
-  },
-  {
-    "product_name": "Becky Cameron 2-pack Gel-Fiber Queen Pillow",
-    "sku": "320000000",
-    "product_category": null,
-    "price": 34,
-    "original_price": 82,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": []
-  },
-  {
-    "product_name": "Serta Sleep to Go Queen Mattress",
-    "sku": "320000000",
-    "product_category": null,
-    "price": 299,
-    "original_price": 599,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": []
-  },
-  {
-    "product_name": "Queen Adjustable Bed Base",
-    "sku": "320000000",
-    "product_category": null,
-    "price": 449,
-    "original_price": 699,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": []
-  },
-  {
-    "product_name": "LG 4 Pc. Package",
-    "sku": null,
-    "product_category": "Appliances",
-    "price": 3492.0,
-    "original_price": null,
-    "store": "HOMEDEPOT",
-    "valid_from": "2025-11-06T00:00:00",
-    "valid_to": "2025-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [
-      "You save $2804 when you buy this 4 pc. package"
-    ],
-    "attributes": []
-  },
-  {
-    "product_name": "LG Tall-Tub QuadWash Dishwasher LDPH4541",
-    "sku": "1001080788",
-    "product_category": "Appliances > Dishwashers",
-    "price": 548.0,
-    "original_price": 899.0,
-    "store": "HOMEDEPOT",
-    "valid_from": "2025-11-06T00:00:00",
-    "valid_to": "2025-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": [
-      "Exclusive",
-      "Stainless Steel"
-    ]
-  },
-  {
-    "product_name": "LG 25.5 cu. ft. Stainless Steel Counter-Depth Max French Door Refrigerator LRSDS2706S",
-    "sku": "1002432688",
-    "product_category": "Appliances > Refrigerators",
-    "price": 1798.0,
-    "original_price": 3599.0,
-    "store": "HOMEDEPOT",
-    "valid_from": "2025-11-06T00:00:00",
-    "valid_to": "2025-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": [
-      "25.5 cu. ft.",
-      "Stainless Steel",
-      "Counter-Depth"
-    ]
-  },
-  {
-    "product_name": "LG 1.8 cu. ft. Stainless Steel Over-the-Range Smart Microwave",
-    "sku": "1002430174",
-    "product_category": "Appliances > Microwaves",
-    "price": 248.0,
-    "original_price": 499.0,
-    "store": "HOMEDEPOT",
-    "valid_from": "2025-11-06T00:00:00",
-    "valid_to": "2025-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": [
-      "1.8 cu. ft.",
-      "Stainless Steel",
-      "Smart"
-    ]
-  },
-  {
-    "product_name": "LG 5.8 cu. ft. Stainless Steel Gas Convection Range",
-    "sku": "1002523827",
-    "product_category": "Appliances > Ranges",
-    "price": 898.0,
-    "original_price": 1299.0,
-    "store": "HOMEDEPOT",
-    "valid_from": "2025-11-06T00:00:00",
-    "valid_to": "2025-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": [
-      "5.8 cu. ft.",
-      "Stainless Steel",
-      "Gas",
-      "Convection"
-    ]
-  },
-  {
-    "product_name": "GE 4.6 cu. ft. Diamond Gray HE Washer & 7.4 cu. ft. Electric Dryer",
-    "sku": "1003558620",
-    "product_category": "Appliances > Laundry",
-    "price": 1196.0,
-    "original_price": 1998.0,
-    "store": "HOMEDEPOT",
-    "valid_from": "2025-11-06T00:00:00",
-    "valid_to": "2025-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [
-      "Save $802 on set"
-    ],
-    "attributes": [
-      "4.6 cu. ft.",
-      "Diamond Gray",
-      "HE Washer",
-      "7.4 cu. ft.",
-      "Electric Dryer"
-    ]
-  },
-  {
-    "product_name": "GE 4.8 cu. ft. Carbon Graphite Finish Washer & 7.4 cu. ft. Electric Dryer",
-    "sku": "1003558621",
-    "product_category": "Appliances > Laundry",
-    "price": 1396.0,
-    "original_price": 2098.0,
-    "store": "HOMEDEPOT",
-    "valid_from": "2025-11-06T00:00:00",
-    "valid_to": "2025-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [
-      "Save $702 on set"
-    ],
-    "attributes": [
-      "4.8 cu. ft.",
-      "Carbon Graphite Finish",
-      "Washer",
-      "7.4 cu. ft.",
-      "Electric Dryer"
-    ]
-  },
-  {
-    "product_name": "LG 4.5 cu. ft. HE Washer & 7.4 cu. ft. Steam Dryer",
-    "sku": "1003558623",
-    "product_category": "Appliances > Laundry",
-    "price": 1596.0,
-    "original_price": 2398.0,
-    "store": "HOMEDEPOT",
-    "valid_from": "2025-11-06T00:00:00",
-    "valid_to": "2025-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [
-      "Save $802 on set"
-    ],
-    "attributes": [
-      "4.5 cu. ft.",
-      "HE Washer",
-      "7.4 cu. ft.",
-      "Steam Dryer"
-    ]
-  },
-  {
-    "product_name": "LG 5.3 cu. ft. Platinum Black HE Washer & 7.3 cu. ft. Electric Dryer",
-    "sku": "1003558624",
-    "product_category": "Appliances > Laundry",
-    "price": 1396.0,
-    "original_price": 2398.0,
-    "store": "HOMEDEPOT",
-    "valid_from": "2025-11-06T00:00:00",
-    "valid_to": "2025-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [
-      "Save $1002 on set"
-    ],
-    "attributes": [
-      "5.3 cu. ft.",
-      "Platinum Black",
-      "HE Washer",
-      "7.3 cu. ft.",
-      "Electric Dryer"
-    ]
-  },
-  {
-    "product_name": "Samsung 5.3 cu. ft. Bespoke Brushed Black Washer/Dryer",
-    "sku": "1003558625",
-    "product_category": "Appliances > Laundry",
-    "price": 1998.0,
-    "original_price": 3299.0,
-    "store": "HOMEDEPOT",
-    "valid_from": "2025-11-06T00:00:00",
-    "valid_to": "2025-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [
-      "Save $1301 on set"
-    ],
-    "attributes": [
-      "5.3 cu. ft.",
-      "Bespoke",
-      "Brushed Black",
-      "Washer/Dryer"
-    ]
-  },
-  {
-    "product_name": "Samsung 5.3 cu. ft. Bespoke Brushed Black Washer/Dryer",
-    "sku": "1003558626",
-    "product_category": "Appliances > Laundry",
-    "price": 1998.0,
-    "original_price": 3999.0,
-    "store": "HOMEDEPOT",
-    "valid_from": "2025-11-06T00:00:00",
-    "valid_to": "2025-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [
-      "Save $1101 on set"
-    ],
-    "attributes": [
-      "5.3 cu. ft.",
-      "Bespoke",
-      "Brushed Black",
-      "Washer/Dryer"
-    ]
-  },
-  {
-    "product_name": "Whirlpool 4.5 cu. ft. Washer",
-    "sku": "1002630899",
-    "product_category": "Appliances > Laundry",
-    "price": 678.0,
-    "original_price": 899.0,
-    "store": "HOMEDEPOT",
-    "valid_from": "2025-11-06T00:00:00",
-    "valid_to": "2025-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [
-      "Save $221"
-    ],
-    "attributes": [
-      "4.5 cu. ft.",
-      "Washer"
-    ]
-  },
-  {
-    "product_name": "Whirlpool 4.2 cu. ft. 2-in-1 Washer",
-    "sku": "1002430890",
-    "product_category": "Appliances > Laundry",
-    "price": 548.0,
-    "original_price": 699.0,
-    "store": "HOMEDEPOT",
-    "valid_from": "2025-11-06T00:00:00",
-    "valid_to": "2025-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [
-      "Save $151"
-    ],
-    "attributes": [
-      "4.2 cu. ft.",
-      "2-in-1 Washer"
-    ]
-  },
-  {
-    "product_name": "2-Pack M18™ 18V Battery 5.0Ah Kit",
-    "sku": "1009761307",
-    "product_category": "Tools > Power Tools > Batteries",
-    "price": 199.0,
-    "original_price": 397.0,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [
-      "While supplies last"
-    ],
-    "attributes": [
-      "Includes two batteries and charger"
-    ]
-  },
-  {
-    "product_name": "18V Brushless 2-Tool 5.0Ah Kit",
-    "sku": "1007850144",
-    "product_category": "Tools > Power Tools > Combo Kits",
-    "price": 399.0,
-    "original_price": null,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": [
-      "Includes hammer drill/driver, impact driver, two batteries, charger and case"
-    ]
-  },
-  {
-    "product_name": "M18™ 18V Oscillating Multi-Tool",
-    "sku": "1000032061",
-    "product_category": "Tools > Power Tools > Oscillating Tools",
-    "price": 149.0,
-    "original_price": null,
-    "store": "HOMEDEPOT",
-    "valid_from": "2025-10-27T00:00:00",
-    "valid_to": "2026-02-01T23:59:59",
-    "deal_type": "Free Tool Offer",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": [
-      "Tool Only"
-    ]
-  },
-  {
-    "product_name": "18V Brushless Blower",
-    "sku": "1001675515",
-    "product_category": "Tools > Outdoor Power Equipment > Blowers",
-    "price": 199.0,
-    "original_price": null,
-    "store": "HOMEDEPOT",
-    "valid_from": "2025-10-27T00:00:00",
-    "valid_to": "2026-02-01T23:59:59",
-    "deal_type": "Free Tool Offer",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": [
-      "Tool Only",
-      "Delivers up to 500 CFM",
-      "Up to 120 mph"
-    ]
-  },
-  {
-    "product_name": "M18™ RedLithium™ High Output™ 18V Battery 6.0Ah",
-    "sku": "1003414977",
-    "product_category": "Tools > Power Tools > Batteries",
-    "price": 199.0,
-    "original_price": null,
-    "store": "HOMEDEPOT",
-    "valid_from": "2025-10-27T00:00:00",
-    "valid_to": "2026-02-01T23:59:59",
-    "deal_type": "Free Tool Offer",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": []
-  },
-  {
-    "product_name": "M18™ Inflator",
-    "sku": "1007692304",
-    "product_category": "Tools > Power Tools > Inflators",
-    "price": 199.0,
-    "original_price": null,
-    "store": "HOMEDEPOT",
-    "valid_from": "2025-10-27T00:00:00",
-    "valid_to": "2026-02-01T23:59:59",
-    "deal_type": "Free Tool Offer",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": [
-      "Tool Only"
-    ]
-  },
-  {
-    "product_name": "18V Gen 2 Sawzall®",
-    "sku": "1005667613",
-    "product_category": "Tools > Power Tools > Saws",
-    "price": 229.0,
-    "original_price": null,
-    "store": "HOMEDEPOT",
-    "valid_from": "2025-10-27T00:00:00",
-    "valid_to": "2026-02-01T23:59:59",
-    "deal_type": "Free Tool Offer",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": [
-      "Tool Only"
-    ]
-  },
-  {
-    "product_name": "18V Jig Saw",
-    "sku": "1003365763",
-    "product_category": "Tools > Power Tools > Saws",
-    "price": 229.0,
-    "original_price": null,
-    "store": "HOMEDEPOT",
-    "valid_from": "2025-10-27T00:00:00",
-    "valid_to": "2026-02-01T23:59:59",
-    "deal_type": "Free Tool Offer",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": [
-      "Tool Only"
-    ]
-  },
-  {
-    "product_name": "18V Brushless 18-Gauge Brad Nailer",
-    "sku": "1004501352",
-    "product_category": "Tools > Power Tools > Nailers",
-    "price": 279.0,
-    "original_price": 299.0,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": [
-      "Tool Only",
-      "Consistently drives nails up to 2-1/8\""
-    ]
-  },
-  {
-    "product_name": "PACKOUT™ 20\" Organizer",
-    "sku": "1003402306",
-    "product_category": "Tools > Tool Storage > Organizers",
-    "price": 52.97,
-    "original_price": null,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Exclusive",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": []
-  },
-  {
-    "product_name": "PACKOUT™ 22\" 2-Drawer Tool Box",
-    "sku": "1005874025",
-    "product_category": "Tools > Tool Storage > Tool Boxes",
-    "price": 159.0,
-    "original_price": null,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Exclusive",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": []
-  },
-  {
-    "product_name": "PACKOUT™ 22\" Rolling Tool Box",
-    "sku": "1011988333",
-    "product_category": "Tools > Tool Storage > Tool Boxes",
-    "price": 169.0,
-    "original_price": null,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Exclusive",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": []
-  },
-  {
-    "product_name": "2 pcs. Straight-Jaw Pliers Set",
-    "sku": "1001624927",
-    "product_category": "Tools > Hand Tools > Pliers",
-    "price": 19.97,
-    "original_price": 26.97,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": []
-  },
-  {
-    "product_name": "7\" Rafter & 4-1/2\" Trim Square Set",
-    "sku": "1005646285",
-    "product_category": "Tools > Hand Tools > Squares",
-    "price": 19.97,
-    "original_price": 32.94,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": []
-  },
-  {
-    "product_name": "2 pc. Ratcheting Screwdriver Set",
-    "sku": "1014121440",
-    "product_category": "Tools > Hand Tools > Screwdrivers",
-    "price": 19.97,
-    "original_price": 35.94,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": []
-  },
-  {
-    "product_name": "2-Pack Fastback™ Folding Utility Knife",
-    "sku": "1011971410",
-    "product_category": "Tools > Hand Tools > Knives",
-    "price": 19.97,
-    "original_price": 39.94,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": []
-  },
-  {
-    "product_name": "2-Pack 25' Compact Magnetic Tape Measure",
-    "sku": "1017017349",
-    "product_category": "Tools > Hand Tools > Measuring Tools",
-    "price": 19.97,
-    "original_price": 45.94,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": []
-  },
-  {
-    "product_name": "EXCLUSIVE 20V Max 2.0Ah/5.0Ah Battery Kit",
-    "sku": "101436314",
-    "product_category": null,
-    "price": 199.0,
-    "original_price": 377.0,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06",
-    "valid_to": "2023-11-26",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [
-      "While supplies last"
-    ],
-    "attributes": [
-      "Includes two batteries and charger"
-    ]
-  },
-  {
-    "product_name": "EXCLUSIVE Atomic 20V Brushless 2-Tool 2.0Ah/5.0Ah Kit",
-    "sku": "101367490",
-    "product_category": null,
-    "price": 319.0,
-    "original_price": null,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06",
-    "valid_to": "2023-11-26",
-    "deal_type": null,
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": [
-      "Includes hammer drill/driver, impact driver, two batteries, charger and bag"
-    ]
-  },
-  {
-    "product_name": "20V Max 13\" String Trimmer",
-    "sku": "1004773318",
-    "product_category": null,
-    "price": 0.0,
-    "original_price": 139.0,
-    "store": "HOMEDEPOT",
-    "valid_from": "2025-10-27",
-    "valid_to": "2026-02-01",
-    "deal_type": "Get 1 Free Select Power Tool",
-    "in_store_only": true,
-    "deal_conditions": [],
-    "attributes": []
-  },
-  {
-    "product_name": "20V Max XR Brushless Blower",
-    "sku": "1004773266",
-    "product_category": null,
-    "price": 0.0,
-    "original_price": 179.0,
-    "store": "HOMEDEPOT",
-    "valid_from": "2025-10-27",
-    "valid_to": "2026-02-01",
-    "deal_type": "Get 1 Free Select Power Tool",
-    "in_store_only": true,
-    "deal_conditions": [],
-    "attributes": [
-      "Delivers 450 CFM & 125 mph for maximum clearing power"
-    ]
-  },
-  {
-    "product_name": "20V Max Brushless 6-1/2\" Circular Saw",
-    "sku": "1005577931",
-    "product_category": null,
-    "price": 0.0,
-    "original_price": 229.0,
-    "store": "HOMEDEPOT",
-    "valid_from": "2025-10-27",
-    "valid_to": "2026-02-01",
-    "deal_type": "Get 1 Free Select Power Tool",
-    "in_store_only": true,
-    "deal_conditions": [],
-    "attributes": []
-  },
-  {
-    "product_name": "20V Max XR Brushless Jig Saw",
-    "sku": "1003894915",
-    "product_category": null,
-    "price": 0.0,
-    "original_price": 239.0,
-    "store": "HOMEDEPOT",
-    "valid_from": "2025-10-27",
-    "valid_to": "2026-02-01",
-    "deal_type": "Get 1 Free Select Power Tool",
-    "in_store_only": true,
-    "deal_conditions": [],
-    "attributes": []
-  },
-  {
-    "product_name": "10-Compartment Deep Organizer",
-    "sku": "1007640333",
-    "product_category": null,
-    "price": 44.98,
-    "original_price": 49.98,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06",
-    "valid_to": "2023-11-26",
-    "deal_type": "New Lower Price",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": []
-  },
-  {
-    "product_name": "12\" 3-Drawer Toolbox",
-    "sku": "1009792986",
-    "product_category": null,
-    "price": 119.0,
-    "original_price": 149.0,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06",
-    "valid_to": "2023-11-26",
-    "deal_type": "New Lower Price",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": []
-  },
-  {
-    "product_name": "24\" Large Tool Box",
-    "sku": "1005417892",
-    "product_category": null,
-    "price": 89.98,
-    "original_price": 119.0,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06",
-    "valid_to": "2023-11-26",
-    "deal_type": "New Lower Price",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": []
-  },
-  {
-    "product_name": "100' Chalk Reel Kit",
-    "sku": "1013962678",
-    "product_category": null,
-    "price": 13.97,
-    "original_price": null,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06",
-    "valid_to": "2023-11-26",
-    "deal_type": null,
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": [
-      "Includes 4 oz. bottle of red chalk"
-    ]
-  },
-  {
-    "product_name": "MaxFit 10 pc. Telescoping Ratcheting Screwdriver Set",
-    "sku": "1007501345",
-    "product_category": null,
-    "price": 13.97,
-    "original_price": 21.97,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06",
-    "valid_to": "2023-11-26",
-    "deal_type": null,
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": [
-      "Reduced stripping and slipping with MaxFit tips"
-    ]
-  },
-  {
-    "product_name": "2 pc. Folding Utility Knife Set",
-    "sku": "1014215242",
-    "product_category": null,
-    "price": 19.88,
-    "original_price": 29.94,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06",
-    "valid_to": "2023-11-26",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [
-      "While supplies last"
-    ],
-    "attributes": [
-      "Push-and-flip opening allows for quick, one-handed operation"
-    ]
-  },
-  {
-    "product_name": "EXCLUSIVE Cordless Roofing Nailer",
-    "sku": "1005944202",
-    "product_category": null,
-    "price": 369.0,
-    "original_price": 419.0,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06",
-    "valid_to": "2023-11-26",
-    "deal_type": "Special Buy",
-    "in_store_only": true,
-    "deal_conditions": [],
-    "attributes": [
-      "Drives 15° coil nails from 3/4\" to 1-3/4\"",
-      "Holds up to 120 nails before reloading"
-    ]
-  },
-  {
-    "product_name": "18V Brushless 2-Tool 2.0Ah/4.0Ah Kit",
-    "sku": "1005934262",
-    "product_category": null,
-    "price": 249.0,
-    "original_price": null,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06",
-    "valid_to": "2023-11-26",
-    "deal_type": "Exclusive",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": [
-      "Includes 1/4\" impact driver, hammer drill, two batteries, charger and bag"
-    ]
-  },
-  {
-    "product_name": "18V Brushless Oscillating Multi-Tool",
-    "sku": "100606673",
-    "product_category": null,
-    "price": 0.0,
-    "original_price": 149.0,
-    "store": "HOMEDEPOT",
-    "valid_from": "2025-10-27",
-    "valid_to": "2026-02-01",
-    "deal_type": "Get 1 Free Select Power Tool",
-    "in_store_only": true,
-    "deal_conditions": [],
-    "attributes": []
-  },
-  {
-    "product_name": "18V Brushless 1/2\" Mid-Torque Impact Wrench",
-    "sku": "1006815422",
-    "product_category": null,
-    "price": 0.0,
-    "original_price": 179.0,
-    "store": "HOMEDEPOT",
-    "valid_from": "2025-10-27",
-    "valid_to": "2026-02-01",
-    "deal_type": "Get 1 Free Select Power Tool",
-    "in_store_only": true,
-    "deal_conditions": [],
-    "attributes": []
-  },
-  {
-    "product_name": "LXT 18V 4.0Ah Battery Kit",
-    "sku": "1014239682",
-    "product_category": null,
-    "price": 199.0,
-    "original_price": null,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06",
-    "valid_to": "2023-11-26",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": [
-      "Includes two batteries and charger"
-    ]
-  },
-  {
-    "product_name": "LXT 18V Multi-Tool",
-    "sku": "1000544624",
-    "product_category": null,
-    "price": 0.0,
-    "original_price": 159.0,
-    "store": "HOMEDEPOT",
-    "valid_from": "2025-10-27",
-    "valid_to": "2026-02-01",
-    "deal_type": "Get 1 Free Select Power Tool",
-    "in_store_only": true,
-    "deal_conditions": [],
-    "attributes": []
-  },
-  {
-    "product_name": "LXT 18V Brushless Blower",
-    "sku": "1004740250",
-    "product_category": null,
-    "price": 0.0,
-    "original_price": 169.0,
-    "store": "HOMEDEPOT",
-    "valid_from": "2025-10-27",
-    "valid_to": "2026-02-01",
-    "deal_type": "Get 1 Free Select Power Tool",
-    "in_store_only": true,
-    "deal_conditions": [],
-    "attributes": [
-      "Delivers up to 459 CFM and 116 mph for maximum clearing power"
-    ]
-  },
-  {
-    "product_name": "Defiant Exclusive Radius Single Cylinder Keypad Deadbolt",
-    "sku": "1038127276, 1038192578",
-    "product_category": null,
-    "price": 24.88,
-    "original_price": null,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06",
-    "valid_to": "2023-11-26",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [
-      "While supplies last"
-    ],
-    "attributes": []
-  },
-  {
-    "product_name": "Defiant Exclusive 6-Pack Hartford Door Knob",
-    "sku": "1002708057",
-    "product_category": null,
-    "price": 24.88,
-    "original_price": 66.47,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06",
-    "valid_to": "2023-11-26",
-    "deal_type": "Your Choice",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": [
-      "Satin nickel finish"
-    ]
-  },
-  {
-    "product_name": "Commercial Electric Exclusive 2 LED 30-Watt Shop Light",
-    "sku": "1002533043",
-    "product_category": null,
-    "price": 9.88,
-    "original_price": 14.97,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06",
-    "valid_to": "2023-11-26",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": [
-      "3000 lumen",
-      "4000K color temp",
-      "50,000-hour average life"
-    ]
-  },
-  {
-    "product_name": "Commercial Electric Exclusive 10-Pack LED Recessed Light",
-    "sku": "1003025403",
-    "product_category": null,
-    "price": 74.88,
-    "original_price": 89.88,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06",
-    "valid_to": "2023-11-26",
-    "deal_type": "New Lower Price",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": [
-      "Fits limited height spaces",
-      "Doesn't require a can"
-    ]
-  },
-  {
-    "product_name": "Milwaukee Exclusive GFCI Receptacle Tester with LCD Display",
-    "sku": "1006316769",
-    "product_category": null,
-    "price": 24.88,
-    "original_price": 36.0,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06",
-    "valid_to": "2023-11-26",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": [
-      "Detects common wiring problems",
-      "Indicates correct wiring"
-    ]
-  },
-  {
-    "product_name": "Husky Exclusive 8/12/9 Heavy Duty Metal Surge Protector",
-    "sku": "1002708057",
-    "product_category": null,
-    "price": 24.88,
-    "original_price": 29.97,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06",
-    "valid_to": "2023-11-26",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": [
-      "Provides 6 outlets",
-      "4 ft. cord"
-    ]
-  },
-  {
-    "product_name": "Husky Exclusive Hole Dozer 8 pc. Bi-Metal Hole Saw Kit",
-    "sku": "1006151560",
-    "product_category": null,
-    "price": 29.97,
-    "original_price": 49.97,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06",
-    "valid_to": "2023-11-26",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": [
-      "Includes hole saws",
-      "Arbor",
-      "Pilot bits",
-      "Case"
-    ]
-  },
-  {
-    "product_name": "Werner 8 ft. Fiberglass Step Ladder, Type 1",
-    "sku": "1039122183",
-    "product_category": null,
-    "price": 79.88,
-    "original_price": 159.0,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06",
-    "valid_to": "2023-11-26",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": [
-      "250 lb. capacity"
-    ]
-  },
-  {
-    "product_name": "Safestep Baker 6 ft. Rolling Scaffold",
-    "sku": "1002519263",
-    "product_category": null,
-    "price": 199.0,
-    "original_price": 298.0,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06",
-    "valid_to": "2023-11-26",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": []
-  },
-  {
-    "product_name": "Ridgid Exclusive 10 in. Portable Table Saw with Stand",
-    "sku": "1002363268",
-    "product_category": null,
-    "price": 149.0,
-    "original_price": 179.0,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06",
-    "valid_to": "2023-11-26",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": [
-      "Powerful 15 amp motor",
-      "Rip capacity up to 24 in."
-    ]
-  },
-  {
-    "product_name": "MSI Lucido Grand 24 in. x 48 in. Polished Porcelain Tile",
-    "sku": "1004109129",
-    "product_category": null,
-    "price": 1.69,
-    "original_price": null,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06",
-    "valid_to": "2023-11-26",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [
-      "Available in select stores and online"
-    ],
-    "attributes": []
-  },
-  {
-    "product_name": "Custom Building Products VersaBond-LFT 50 lb. Fortified Medium Bed Mortar",
-    "sku": "1002361436",
-    "product_category": null,
-    "price": 22.97,
-    "original_price": null,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06",
-    "valid_to": "2023-11-26",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": []
-  },
-  {
-    "product_name": "Husky Exclusive 15-in-1 Stainless Steel Painter's Tool",
-    "sku": "1006000200",
-    "product_category": null,
-    "price": 7.98,
-    "original_price": null,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06",
-    "valid_to": "2023-11-26",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": [
-      "Features spreader",
-      "Paint can opener",
-      "Nail remover"
-    ]
-  },
-  {
-    "product_name": "Husky Exclusive 3-Pack Stainless Steel Putty Knife and Scraper Set",
-    "sku": "103861540",
-    "product_category": null,
-    "price": 9.88,
-    "original_price": null,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06",
-    "valid_to": "2023-11-26",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": [
-      "For drywall application"
-    ]
-  },
-  {
-    "product_name": "Wooster 3-Pack Pro Roller Cover",
-    "sku": "567357",
-    "product_category": null,
-    "price": 10.98,
-    "original_price": null,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06",
-    "valid_to": "2023-11-26",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": [
-      "9 in. x 3/8 in.",
-      "Shed-resistant fabric",
-      "Virtually lint-free"
-    ]
-  },
-  {
-    "product_name": "HDX Exclusive 2-Pack 14 in. Cotton Painter's Towels",
-    "sku": "1006645014",
-    "product_category": null,
-    "price": 13.98,
-    "original_price": null,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06",
-    "valid_to": "2023-11-26",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": [
-      "Absorbent",
-      "Stain and spill resistant"
-    ]
-  },
-  {
-    "product_name": "HDX Exclusive Easy-Tear Microfiber Roll",
-    "sku": "102476870",
-    "product_category": null,
-    "price": 9.88,
-    "original_price": null,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06",
-    "valid_to": "2023-11-26",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": [
-      "50 oversized sheets"
-    ]
-  },
-  {
-    "product_name": "Husky Exclusive 50-Count 42-Gallon Contractor Clean-Up Bags",
-    "sku": "1006514914",
-    "product_category": null,
-    "price": 29.97,
-    "original_price": null,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06",
-    "valid_to": "2023-11-26",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": [
-      "Flap tie closure"
-    ]
-  },
-  {
-    "product_name": "Simple Green Gallon All-Purpose Cleaner",
-    "sku": "431492",
-    "product_category": null,
-    "price": 10.98,
-    "original_price": null,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06",
-    "valid_to": "2023-11-26",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": [
-      "Cleaner and degreaser",
-      "Without harsh chemicals"
-    ]
-  },
-  {
-    "product_name": "Vissani 18.7 cu. ft. Stainless Steel Bottom Freezer Refrigerator",
-    "sku": "MDF18SS",
-    "product_category": "Appliances > Refrigerators",
-    "price": 649.0,
-    "original_price": 929.0,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": true,
-    "deal_conditions": [
-      "While supplies last"
-    ],
-    "attributes": [
-      "18.7 cu. ft.",
-      "Stainless Steel",
-      "Bottom Freezer"
-    ]
-  },
-  {
-    "product_name": "Vissani 18 cu. ft. Top Freezer Refrigerator",
-    "sku": "MDF18WH",
-    "product_category": "Appliances > Refrigerators",
-    "price": 529.0,
-    "original_price": 719.0,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": true,
-    "deal_conditions": [
-      "While supplies last"
-    ],
-    "attributes": [
-      "18 cu. ft.",
-      "Top Freezer"
-    ]
-  },
-  {
-    "product_name": "Vissani 5.0 cu. ft. Chest Freezer",
-    "sku": "MDCF5WH",
-    "product_category": "Appliances > Freezers",
-    "price": 199.0,
-    "original_price": 239.0,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": true,
-    "deal_conditions": [
-      "While supplies last"
-    ],
-    "attributes": [
-      "5.0 cu. ft.",
-      "Chest Freezer"
-    ]
-  },
-  {
-    "product_name": "Ninja 8-in-1 Air Fryer Toaster Oven",
-    "sku": "DT201",
-    "product_category": "Appliances > Small Kitchen Appliances",
-    "price": 149.0,
-    "original_price": 219.0,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": true,
-    "deal_conditions": [
-      "While supplies last"
-    ],
-    "attributes": [
-      "8-in-1",
-      "Air Fryer",
-      "Toaster Oven"
-    ]
-  },
-  {
-    "product_name": "Ninja Blast 18 oz. Personal Blender",
-    "sku": "100893851",
-    "product_category": "Appliances > Small Kitchen Appliances",
-    "price": 59.0,
-    "original_price": 69.98,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": true,
-    "deal_conditions": [
-      "While supplies last"
-    ],
-    "attributes": [
-      "18 oz.",
-      "Personal Blender"
-    ]
-  },
-  {
-    "product_name": "Shark PowerPro Portable Stick Vacuum",
-    "sku": "1006406437",
-    "product_category": "Appliances > Vacuums",
-    "price": 199.0,
-    "original_price": 329.0,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": true,
-    "deal_conditions": [
-      "While supplies last"
-    ],
-    "attributes": [
-      "Portable",
-      "Stick Vacuum"
-    ]
-  },
-  {
-    "product_name": "Hoover WindTunnel Pet Upright Vacuum",
-    "sku": "UH71230V",
-    "product_category": "Appliances > Vacuums",
-    "price": 99.0,
-    "original_price": 149.0,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": true,
-    "deal_conditions": [
-      "While supplies last"
-    ],
-    "attributes": [
-      "Pet Upright Vacuum"
-    ]
-  },
-  {
-    "product_name": "Dirt Devil Portable Carpet & Upholstery Cleaner",
-    "sku": "FD13000",
-    "product_category": "Appliances > Carpet Cleaners",
-    "price": 79.0,
-    "original_price": 109.0,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": true,
-    "deal_conditions": [
-      "While supplies last"
-    ],
-    "attributes": [
-      "Portable",
-      "Carpet & Upholstery Cleaner"
-    ]
-  },
-  {
-    "product_name": "Stanley Powerlock 25' Tape Measure",
-    "sku": "156663",
-    "product_category": "Tools > Measuring Tools",
-    "price": 9.97,
-    "original_price": 12.97,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": true,
-    "deal_conditions": [
-      "While supplies last"
-    ],
-    "attributes": [
-      "25'",
-      "Tape Measure"
-    ]
-  },
-  {
-    "product_name": "DeWalt MaxFit Ultra 30 pc. Drilling & Driving Set",
-    "sku": "1001739484",
-    "product_category": "Tools > Drill Bits",
-    "price": 9.97,
-    "original_price": 12.97,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": true,
-    "deal_conditions": [
-      "While supplies last"
-    ],
-    "attributes": [
-      "30 pc.",
-      "Drilling & Driving Set"
-    ]
-  },
-  {
-    "product_name": "DeWalt 2-Pack 25' Tape Measure",
-    "sku": "1002499353",
-    "product_category": "Tools > Measuring Tools",
-    "price": 19.88,
-    "original_price": null,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": true,
-    "deal_conditions": [
-      "While supplies last"
-    ],
-    "attributes": [
-      "2-Pack",
-      "25'",
-      "Tape Measure"
-    ]
-  },
-  {
-    "product_name": "ToughSystem Construction Jack",
-    "sku": "1006406437",
-    "product_category": "Tools > Construction Tools",
-    "price": 99.0,
-    "original_price": 119.0,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": true,
-    "deal_conditions": [
-      "While supplies last"
-    ],
-    "attributes": [
-      "Construction Jack"
-    ]
-  },
-  {
-    "product_name": "Ridgid 16 Gallon Wet/Dry Vacuum",
-    "sku": "100260551",
-    "product_category": "Tools > Vacuums",
-    "price": 59.88,
-    "original_price": 119.0,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": true,
-    "deal_conditions": [
-      "While supplies last"
-    ],
-    "attributes": [
-      "16 Gallon",
-      "Wet/Dry Vacuum"
-    ]
-  },
-  {
-    "product_name": "Genie 1/2 HP Ultra-Quiet Belt Drive Garage Door Opener",
-    "sku": "1005929186",
-    "product_category": "Tools > Garage Door Openers",
-    "price": 179.0,
-    "original_price": 229.0,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": true,
-    "deal_conditions": [
-      "While supplies last"
-    ],
-    "attributes": [
-      "1/2 HP",
-      "Ultra-Quiet",
-      "Belt Drive"
-    ]
-  },
-  {
-    "product_name": "EXCLUSIVE Shockwave Impact Duty 7 pc. Bit Set",
-    "sku": "1003961292",
-    "product_category": "Tools > Drill Bits",
-    "price": 19.88,
-    "original_price": null,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": true,
-    "deal_conditions": [
-      "While supplies last"
-    ],
-    "attributes": [
-      "7 pc.",
-      "Bit Set"
-    ]
-  },
-  {
-    "product_name": "40\" x 30\" Pet Bed",
-    "sku": "104032122",
-    "product_category": "Home > Pet Supplies",
-    "price": 19.88,
-    "original_price": null,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": true,
-    "deal_conditions": [
-      "While supplies last"
-    ],
-    "attributes": [
-      "40\" x 30\"",
-      "Pet Bed"
-    ]
-  },
-  {
-    "product_name": "Sensor Brite Motion-Activated LED Solar Area Light",
-    "sku": "1009232503",
-    "product_category": "Lighting > Outdoor Lighting",
-    "price": 9.98,
-    "original_price": 19.98,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": true,
-    "deal_conditions": [
-      "While supplies last"
-    ],
-    "attributes": [
-      "Motion-Activated",
-      "LED",
-      "Solar"
-    ]
-  },
-  {
-    "product_name": "Handy Heater 50\" x 60\" Grey Heated Throw Blanket",
-    "sku": "104166111",
-    "product_category": "Home > Bedding",
-    "price": 29.88,
-    "original_price": null,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": true,
-    "deal_conditions": [
-      "While supplies last"
-    ],
-    "attributes": [
-      "50\" x 60\"",
-      "Grey",
-      "Heated Throw Blanket"
-    ]
-  },
-  {
-    "product_name": "Handy Heater Rechargeable Heated Seat Cushion",
-    "sku": "103758565",
-    "product_category": "Home > Automotive Accessories",
-    "price": 29.88,
-    "original_price": null,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": true,
-    "deal_conditions": [
-      "While supplies last"
-    ],
-    "attributes": [
-      "Rechargeable",
-      "Heated Seat Cushion"
-    ]
-  },
-  {
-    "product_name": "Super Nova 8000 Lumen LED Multi-Directional Light",
-    "sku": "104134902",
-    "product_category": "Lighting > Indoor Lighting",
-    "price": 29.97,
-    "original_price": 49.97,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": true,
-    "deal_conditions": [
-      "While supplies last"
-    ],
-    "attributes": [
-      "8000 Lumen",
-      "LED",
-      "Multi-Directional"
-    ]
-  },
-  {
-    "product_name": "2-Pack ONE+ 18V Battery 2.0Ah/4.0Ah Kit",
-    "sku": "1010632228",
-    "product_category": "Tools > Power Tools > Batteries",
-    "price": 99.0,
-    "original_price": null,
-    "store": "HOMEDEPOT",
-    "valid_from": "2025-10-27T00:00:00",
-    "valid_to": "2026-02-01T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [
-      "While supplies last"
-    ],
-    "attributes": [
-      "Includes two batteries and charger"
-    ]
-  },
-  {
-    "product_name": "ONE+ HP Whisper Series 18V Brushless Blower 4.0Ah Kit",
-    "sku": "1007156329",
-    "product_category": "Tools > Power Tools > Blowers",
-    "price": 149.0,
-    "original_price": null,
-    "store": "HOMEDEPOT",
-    "valid_from": "2025-10-27T00:00:00",
-    "valid_to": "2026-02-01T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [
-      "While supplies last"
-    ],
-    "attributes": [
-      "Delivers 450 CFM & 130 mph",
-      "Includes battery and charger"
-    ]
-  },
-  {
-    "product_name": "ONE+ Whisper Series 18V Hybrid Fan",
-    "sku": "1006706225",
-    "product_category": "Tools > Power Tools > Fans",
-    "price": 59.97,
-    "original_price": null,
-    "store": "HOMEDEPOT",
-    "valid_from": "2025-10-27T00:00:00",
-    "valid_to": "2026-02-01T23:59:59",
-    "deal_type": "Tool Only",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": []
-  },
-  {
-    "product_name": "ONE+ 18V 13\" String Trimmer",
-    "sku": "1006015793",
-    "product_category": "Tools > Outdoor Power Equipment > Trimmers",
-    "price": 69.97,
-    "original_price": null,
-    "store": "HOMEDEPOT",
-    "valid_from": "2025-10-27T00:00:00",
-    "valid_to": "2026-02-01T23:59:59",
-    "deal_type": "Tool Only",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": []
-  },
-  {
-    "product_name": "ONE+ 18V Reciprocating Saw",
-    "sku": "1006703287",
-    "product_category": "Tools > Power Tools > Saws",
-    "price": 79.0,
-    "original_price": null,
-    "store": "HOMEDEPOT",
-    "valid_from": "2025-10-27T00:00:00",
-    "valid_to": "2026-02-01T23:59:59",
-    "deal_type": "Tool Only",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": []
-  },
-  {
-    "product_name": "ONE+ 18V Multi-Tool",
-    "sku": "1006703286",
-    "product_category": "Tools > Power Tools > Multi-Tools",
-    "price": 79.0,
-    "original_price": null,
-    "store": "HOMEDEPOT",
-    "valid_from": "2025-10-27T00:00:00",
-    "valid_to": "2026-02-01T23:59:59",
-    "deal_type": "Tool Only",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": []
-  },
-  {
-    "product_name": "ONE+ 18V 1/2\" Impact Driver",
-    "sku": "1007836022",
-    "product_category": "Tools > Power Tools > Impact Drivers",
-    "price": 99.0,
-    "original_price": null,
-    "store": "HOMEDEPOT",
-    "valid_from": "2025-10-27T00:00:00",
-    "valid_to": "2026-02-01T23:59:59",
-    "deal_type": "Tool Only",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": []
-  },
-  {
-    "product_name": "ONE+ 18V Compact Router",
-    "sku": "1007477484",
-    "product_category": "Tools > Power Tools > Routers",
-    "price": 99.0,
-    "original_price": null,
-    "store": "HOMEDEPOT",
-    "valid_from": "2025-10-27T00:00:00",
-    "valid_to": "2026-02-01T23:59:59",
-    "deal_type": "Tool Only",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": []
-  },
-  {
-    "product_name": "22 pc. Titanium-Coated Drill Bit Set",
-    "sku": "1010014904",
-    "product_category": "Tools > Accessories > Drill Bits",
-    "price": 14.97,
-    "original_price": 19.97,
-    "store": "HOMEDEPOT",
-    "valid_from": null,
-    "valid_to": null,
-    "deal_type": "New Lower Price",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": [
-      "Sizes 1/16\" to 3/8\" with 1/4\" hex shank"
-    ]
-  },
-  {
-    "product_name": "3 pc. Titanium Step Drill Bit Set",
-    "sku": "1012780544",
-    "product_category": "Tools > Accessories > Drill Bits",
-    "price": 19.97,
-    "original_price": 24.97,
-    "store": "HOMEDEPOT",
-    "valid_from": null,
-    "valid_to": null,
-    "deal_type": "New Lower Price",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": [
-      "Titanium coated",
-      "Laser-etched step band and size markings"
-    ]
-  },
-  {
-    "product_name": "18V 3/8\" Drill/Driver 1.5Ah Kit",
-    "sku": "1010127831",
-    "product_category": "Tools > Power Tools > Drills",
-    "price": 49.97,
-    "original_price": null,
-    "store": "HOMEDEPOT",
-    "valid_from": null,
-    "valid_to": null,
-    "deal_type": null,
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": [
-      "Includes battery and charger"
-    ]
-  },
-  {
-    "product_name": "18V Gallon Wet/Dry Vacuum",
-    "sku": "1008625782",
-    "product_category": "Tools > Power Tools > Vacuums",
-    "price": 49.97,
-    "original_price": 79.97,
-    "store": "HOMEDEPOT",
-    "valid_from": null,
-    "valid_to": null,
-    "deal_type": "New Lower Price",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": [
-      "Ryobi LINK compatible",
-      "Ideal for portable cleanup"
-    ]
-  },
-  {
-    "product_name": "18V 2-Tool 1.5Ah Kit",
-    "sku": "1006703283",
-    "product_category": "Tools > Power Tools > Combo Kits",
-    "price": 99.0,
-    "original_price": 139.0,
-    "store": "HOMEDEPOT",
-    "valid_from": null,
-    "valid_to": null,
-    "deal_type": "New Lower Price",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": [
-      "Includes drill/driver, impact driver, two batteries, charger and bag"
-    ]
-  },
-  {
-    "product_name": "18V 8' Pole Saw",
-    "sku": "1007471983",
-    "product_category": "Tools > Outdoor Power Equipment > Pole Saws",
-    "price": 99.0,
-    "original_price": 129.0,
-    "store": "HOMEDEPOT",
-    "valid_from": null,
-    "valid_to": null,
-    "deal_type": "Tool Only",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": [
-      "Extends up to a maximum length of 9.5'"
-    ]
-  },
-  {
-    "product_name": "18V Blower 4.0Ah Kit",
-    "sku": "1010455171",
-    "product_category": "Tools > Power Tools > Blowers",
-    "price": 99.0,
-    "original_price": 129.0,
-    "store": "HOMEDEPOT",
-    "valid_from": null,
-    "valid_to": null,
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": [
-      "350 CFM & 100 MPH",
-      "Includes battery and charger"
-    ]
-  },
-  {
-    "product_name": "Ryobi LINK Speed Bench Mobile Workstation",
-    "sku": "1010648348",
-    "product_category": "Tools > Workstations",
-    "price": 179.0,
-    "original_price": 199.0,
-    "store": "HOMEDEPOT",
-    "valid_from": null,
-    "valid_to": null,
-    "deal_type": null,
-    "in_store_only": false,
-    "deal_conditions": [],
-    "attributes": [
-      "Quick setup",
-      "Transforms cart to workbench"
-    ]
-  },
-  {
-    "product_name": "4-Tier Industrial-Duty Steel Storage Shelf",
-    "sku": "10383606, 103840712",
-    "product_category": "Storage",
-    "price": 199.0,
-    "original_price": null,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Exclusive",
-    "in_store_only": false,
-    "deal_conditions": [
-      "Choose black or red",
-      "Holds up to 10 totes"
-    ],
-    "attributes": [
-      "Steel",
-      "4-Tier"
-    ]
-  },
-  {
-    "product_name": "52\" 10-Drawer Red Mobile Workbench",
-    "sku": "103873396",
-    "product_category": "Workbench",
-    "price": 498.0,
-    "original_price": null,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [
-      "$99 value free peg board included"
-    ],
-    "attributes": [
-      "52\" W x 37.1\" H x 20\" D",
-      "10-Drawer",
-      "Red"
-    ]
-  },
-  {
-    "product_name": "5-Tier Steel Tote Storage Rack",
-    "sku": null,
-    "product_category": "Storage",
-    "price": 149.0,
-    "original_price": null,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "New Lower Price",
-    "in_store_only": false,
-    "deal_conditions": [
-      "78\" H x 24\" D"
-    ],
-    "attributes": [
-      "Steel",
-      "5-Tier"
-    ]
-  },
-  {
-    "product_name": "46\" Mobile 9-Drawer Workbench",
-    "sku": "1005978404",
-    "product_category": "Workbench",
-    "price": 348.0,
-    "original_price": 448.0,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "New Lower Price",
-    "in_store_only": false,
-    "deal_conditions": [
-      "46\" W x 37\" H x 18\" D"
-    ],
-    "attributes": [
-      "Mobile",
-      "9-Drawer"
-    ]
-  },
-  {
-    "product_name": "42\" 12-Drawer Steel Tool Chest",
-    "sku": "103856657",
-    "product_category": "Tool Chest",
-    "price": 548.0,
-    "original_price": null,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [
-      "42\" W x 25.6\" H x 24.5\" D"
-    ],
-    "attributes": [
-      "12-Drawer",
-      "Steel"
-    ]
-  },
-  {
-    "product_name": "52\" 15-Drawer Heavy Duty Steel Tool Chest",
-    "sku": "1001059957",
-    "product_category": "Tool Chest",
-    "price": 898.0,
-    "original_price": 998.0,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [
-      "52\" W x 23\" H x 24\" D"
-    ],
-    "attributes": [
-      "15-Drawer",
-      "Heavy Duty",
-      "Steel"
-    ]
-  },
-  {
-    "product_name": "Folding Lock Back Utility Knife",
-    "sku": "101034986",
-    "product_category": "Tools",
-    "price": 4.97,
-    "original_price": 6.97,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "New Lower Price",
-    "in_store_only": false,
-    "deal_conditions": [
-      "Includes one blade"
-    ],
-    "attributes": [
-      "Aluminum handle"
-    ]
-  },
-  {
-    "product_name": "6-in-1 Screwdriver",
-    "sku": "1002468246",
-    "product_category": "Tools",
-    "price": 4.97,
-    "original_price": 8.97,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "New Lower Price",
-    "in_store_only": false,
-    "deal_conditions": [
-      "Includes handle, reversible shaft and two double-sided bits"
-    ],
-    "attributes": []
-  },
-  {
-    "product_name": "3 pc. Adjustable Wrench Set",
-    "sku": "806141",
-    "product_category": "Tools",
-    "price": 13.97,
-    "original_price": 26.97,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "New Lower Price",
-    "in_store_only": false,
-    "deal_conditions": [
-      "Jaws open 2X faster than standard adjustable wrenches"
-    ],
-    "attributes": []
-  },
-  {
-    "product_name": "46 pc. Stubby Tool Set",
-    "sku": "332135",
-    "product_category": "Tools",
-    "price": 19.97,
-    "original_price": 26.97,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "New Lower Price",
-    "in_store_only": false,
-    "deal_conditions": [
-      "Dual drive ratchets fit 1/4\" and 3/8\" sockets"
-    ],
-    "attributes": []
-  },
-  {
-    "product_name": "Bite 18 pc. Hex Key Set",
-    "sku": "1007019681",
-    "product_category": "Tools",
-    "price": 19.97,
-    "original_price": 29.97,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "New Lower Price",
-    "in_store_only": false,
-    "deal_conditions": [
-      "Designed to reduce fastener rounding"
-    ],
-    "attributes": []
-  },
-  {
-    "product_name": "24 pc. 3/8\" Drive Socket Wrench Set",
-    "sku": "1005978965",
-    "product_category": "Tools",
-    "price": 24.97,
-    "original_price": 39.97,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "New Lower Price",
-    "in_store_only": false,
-    "deal_conditions": [
-      "Includes SAE and metric sizes"
-    ],
-    "attributes": []
-  },
-  {
-    "product_name": "7 pc. Ratcheting Combination Wrench Set",
-    "sku": "1005662838, 1005662836",
-    "product_category": "Tools",
-    "price": 24.97,
-    "original_price": 51.97,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "New Lower Price",
-    "in_store_only": false,
-    "deal_conditions": [
-      "Choose SAE or metric"
-    ],
-    "attributes": []
-  },
-  {
-    "product_name": "3 pc. Pry Bar Set",
-    "sku": "1000040154",
-    "product_category": "Tools",
-    "price": 24.97,
-    "original_price": 46.97,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "New Lower Price",
-    "in_store_only": false,
-    "deal_conditions": [
-      "Includes 12\", 18\" and 25\" long pry bars"
-    ],
-    "attributes": []
-  },
-  {
-    "product_name": "94 pc. Mechanics Tool Set",
-    "sku": "1002408109",
-    "product_category": "Tools",
-    "price": 49.97,
-    "original_price": 84.97,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "New Lower Price",
-    "in_store_only": false,
-    "deal_conditions": [
-      "Includes 1/4\" and 3/8\" drive ratchets, 1/4\" and 3/8\" sockets and accessories"
-    ],
-    "attributes": []
-  },
-  {
-    "product_name": "300 pc. Universal Mechanics Set",
-    "sku": "1012260675",
-    "product_category": "Tools",
-    "price": 169.0,
-    "original_price": 249.0,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "New Lower Price",
-    "in_store_only": false,
-    "deal_conditions": [
-      "Includes 1/4\", 3/8\" and 1/2\" drive ratchets, 72-tooth ratchets and storage case"
-    ],
-    "attributes": []
-  },
-  {
-    "product_name": "GE 4 Pc. Package",
-    "sku": null,
-    "product_category": "Appliances > Kitchen Packages",
-    "price": 3032.0,
-    "original_price": null,
-    "store": "HOMEDEPOT",
-    "valid_from": "2025-11-06T00:00:00",
-    "valid_to": "2025-11-26T23:59:59",
-    "deal_type": "Black Friday Appliance Savings",
-    "in_store_only": false,
-    "deal_conditions": [
-      "Prices shown include discounts"
-    ],
-    "attributes": [
-      "4 Pc. Package"
-    ]
-  },
-  {
-    "product_name": "GE 5.3 Cu. Ft. Stainless Steel Electric Range",
-    "sku": "JB735SPSS",
-    "product_category": "Appliances > Ranges",
-    "price": 678.0,
-    "original_price": 999.0,
-    "store": "HOMEDEPOT",
-    "valid_from": "2025-11-06T00:00:00",
-    "valid_to": "2025-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [
-      "Depot Direct 1001071532"
-    ],
-    "attributes": [
-      "5.3 Cu. Ft.",
-      "Stainless Steel"
-    ]
-  },
-  {
-    "product_name": "GE 1.9 Cu. Ft. Stainless Steel Over-the-Range Microwave",
-    "sku": "JVM7195SKSS",
-    "product_category": "Appliances > Microwaves",
-    "price": 308.0,
-    "original_price": 549.0,
-    "store": "HOMEDEPOT",
-    "valid_from": "2025-11-06T00:00:00",
-    "valid_to": "2025-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [
-      "Depot Direct 100293444"
-    ],
-    "attributes": [
-      "1.9 Cu. Ft.",
-      "Stainless Steel"
-    ]
-  },
-  {
-    "product_name": "GE 25.6 Cu. Ft. Stainless Steel French Door Refrigerator",
-    "sku": "GNE25JYKFS",
-    "product_category": "Appliances > Refrigerators",
-    "price": 1598.0,
-    "original_price": 2899.0,
-    "store": "HOMEDEPOT",
-    "valid_from": "2025-11-06T00:00:00",
-    "valid_to": "2025-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [
-      "Depot Direct 100707777"
-    ],
-    "attributes": [
-      "25.6 Cu. Ft.",
-      "Stainless Steel",
-      "French Door"
-    ]
-  },
-  {
-    "product_name": "GE Stainless Steel Tall-Tub Dishwasher",
-    "sku": "GDT665SSNSS",
-    "product_category": "Appliances > Dishwashers",
-    "price": 448.0,
-    "original_price": 769.0,
-    "store": "HOMEDEPOT",
-    "valid_from": "2025-11-06T00:00:00",
-    "valid_to": "2025-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [
-      "Depot Direct 1001394343"
-    ],
-    "attributes": [
-      "Stainless Steel",
-      "Tall-Tub"
-    ]
-  },
-  {
-    "product_name": "GE Profile 27.9 Cu. Ft. Stainless Steel French-Door Refrigerator",
-    "sku": "PFE28KYNFS",
-    "product_category": "Appliances > Refrigerators",
-    "price": 2698.0,
-    "original_price": 4399.0,
-    "store": "HOMEDEPOT",
-    "valid_from": "2025-11-06T00:00:00",
-    "valid_to": "2025-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [
-      "Depot Direct 1004832366"
-    ],
-    "attributes": [
-      "27.9 Cu. Ft.",
-      "Stainless Steel",
-      "French-Door"
-    ]
-  },
-  {
-    "product_name": "GE 21.9 Cu. Ft. Stainless Steel Counter-Depth French Door Refrigerator",
-    "sku": "GWE19JYLFS",
-    "product_category": "Appliances > Refrigerators",
-    "price": 1598.0,
-    "original_price": 2699.0,
-    "store": "HOMEDEPOT",
-    "valid_from": "2025-11-06T00:00:00",
-    "valid_to": "2025-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [
-      "Depot Direct 1010742864"
-    ],
-    "attributes": [
-      "21.9 Cu. Ft.",
-      "Stainless Steel",
-      "Counter-Depth",
-      "French Door"
-    ]
-  },
-  {
-    "product_name": "GE 5.3 Cu. Ft. Stainless Steel Convection Electric Range",
-    "sku": "JB735SPSS",
-    "product_category": "Appliances > Ranges",
-    "price": 728.0,
-    "original_price": 1149.0,
-    "store": "HOMEDEPOT",
-    "valid_from": "2025-11-06T00:00:00",
-    "valid_to": "2025-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [
-      "Depot Direct 100707777"
-    ],
-    "attributes": [
-      "5.3 Cu. Ft.",
-      "Stainless Steel",
-      "Convection"
-    ]
-  },
-  {
-    "product_name": "GE EXCLUSIVE Stainless Steel Tall-Tub Dishwasher",
-    "sku": "GDT665SSNSS",
-    "product_category": "Appliances > Dishwashers",
-    "price": 598.0,
-    "original_price": 1049.0,
-    "store": "HOMEDEPOT",
-    "valid_from": "2025-11-06T00:00:00",
-    "valid_to": "2025-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [
-      "Depot Direct 1009981833"
-    ],
-    "attributes": [
-      "Stainless Steel",
-      "Tall-Tub"
-    ]
-  },
-  {
-    "product_name": "LG 28.8 Cu. Ft. Stainless Steel Max French-Door Refrigerator",
-    "sku": "LFXS28968S",
-    "product_category": "Appliances > Refrigerators",
-    "price": 3098.0,
-    "original_price": 4499.0,
-    "store": "HOMEDEPOT",
-    "valid_from": "2025-11-06T00:00:00",
-    "valid_to": "2025-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [
-      "Depot Direct 104693646"
-    ],
-    "attributes": [
-      "28.8 Cu. Ft.",
-      "Stainless Steel",
-      "French-Door"
-    ]
-  },
-  {
-    "product_name": "LG 27 Cu. Ft. Stainless Steel Side-by-Side Refrigerator",
-    "sku": "LSXS26366S",
-    "product_category": "Appliances > Refrigerators",
-    "price": 1098.0,
-    "original_price": 1599.0,
-    "store": "HOMEDEPOT",
-    "valid_from": "2025-11-06T00:00:00",
-    "valid_to": "2025-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [
-      "Depot Direct 1012540606"
-    ],
-    "attributes": [
-      "27 Cu. Ft.",
-      "Stainless Steel",
-      "Side-by-Side"
-    ]
-  },
-  {
-    "product_name": "LG 6.3 Cu. Ft. Stainless Steel Electric Range",
-    "sku": "LRE3061ST",
-    "product_category": "Appliances > Ranges",
-    "price": 948.0,
-    "original_price": 1499.0,
-    "store": "HOMEDEPOT",
-    "valid_from": "2025-11-06T00:00:00",
-    "valid_to": "2025-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [
-      "Depot Direct 100707777"
-    ],
-    "attributes": [
-      "6.3 Cu. Ft.",
-      "Stainless Steel"
-    ]
-  },
-  {
-    "product_name": "LG Stainless Steel Tall-Tub Dishwasher",
-    "sku": "LDF5545ST",
-    "product_category": "Appliances > Dishwashers",
-    "price": 798.0,
-    "original_price": 1149.0,
-    "store": "HOMEDEPOT",
-    "valid_from": "2025-11-06T00:00:00",
-    "valid_to": "2025-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [
-      "Depot Direct 100707777"
-    ],
-    "attributes": [
-      "Stainless Steel",
-      "Tall-Tub"
-    ]
-  },
-  {
-    "product_name": "Frigidaire Gallery 26 Cu. Ft. Stainless Steel French Door Refrigerator",
-    "sku": "FGHB2868TF",
-    "product_category": "Appliances > Refrigerators",
-    "price": 1398.0,
-    "original_price": 2299.0,
-    "store": "HOMEDEPOT",
-    "valid_from": "2025-11-06T00:00:00",
-    "valid_to": "2025-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [
-      "Depot Direct 100707777"
-    ],
-    "attributes": [
-      "26 Cu. Ft.",
-      "Stainless Steel",
-      "French Door"
-    ]
-  },
-  {
-    "product_name": "Frigidaire 28.8 Cu. Ft. Stainless Steel French Door Refrigerator",
-    "sku": "FFHB2750TS",
-    "product_category": "Appliances > Refrigerators",
-    "price": 1398.0,
-    "original_price": 1887.0,
-    "store": "HOMEDEPOT",
-    "valid_from": "2025-11-06T00:00:00",
-    "valid_to": "2025-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [
-      "Depot Direct 1010948937"
-    ],
-    "attributes": [
-      "28.8 Cu. Ft.",
-      "Stainless Steel",
-      "French Door"
-    ]
-  },
-  {
-    "product_name": "Samsung 28 Cu. Ft. Bespoke Stainless Steel French-Door Refrigerator",
-    "sku": "RF28T5001SR",
-    "product_category": "Appliances > Refrigerators",
-    "price": 1998.0,
-    "original_price": 2999.0,
-    "store": "HOMEDEPOT",
-    "valid_from": "2025-11-06T00:00:00",
-    "valid_to": "2025-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [
-      "Depot Direct 110318662"
-    ],
-    "attributes": [
-      "28 Cu. Ft.",
-      "Bespoke",
-      "Stainless Steel",
-      "French-Door"
-    ]
-  },
-  {
-    "product_name": "Samsung 50 dBA Stainless Steel Tall Tub Dishwasher",
-    "sku": "DW80R2031US",
-    "product_category": "Appliances > Dishwashers",
-    "price": 598.0,
-    "original_price": 999.0,
-    "store": "HOMEDEPOT",
-    "valid_from": "2025-11-06T00:00:00",
-    "valid_to": "2025-11-26T23:59:59",
-    "deal_type": "Special Buy",
-    "in_store_only": false,
-    "deal_conditions": [
-      "Depot Direct 110318524"
-    ],
-    "attributes": [
-      "50 dBA",
-      "Stainless Steel",
-      "Tall Tub"
-    ]
-  },
-  {
-    "product_name": "RYOBI ONE+ 18V 6-tool 1.5Ah/4.0Ah Kit",
-    "sku": "1006702836",
+    "product_name": "RYOBI ONE+ 18V 6-Tool 1.5Ah/4.0Ah Kit",
+    "sku": "1006702368",
     "product_category": "Tools > Power Tools > Combo Kits",
     "price": 199.0,
     "original_price": 299.0,
@@ -3065,21 +14,16 @@
       "While supplies last"
     ],
     "attributes": [
-      "Includes drill/driver",
-      "impact driver",
-      "circular saw",
-      "reciprocating saw",
-      "multi-tool",
-      "LED light",
-      "two batteries",
-      "charger",
-      "bag"
-    ]
+      "Includes drill/driver, impact driver, circular saw, reciprocating saw, multi-tool, LED light, two batteries, charger and bag"
+    ],
+    "bundle_deal": false,
+    "required_purchase": null,
+    "free_item": null
   },
   {
-    "product_name": "HUSKY 270 pc. Mechanics Tool Set",
-    "sku": "1000053489",
-    "product_category": "Tools > Hand Tools > Tool Sets",
+    "product_name": "HUSKY 268 Pc. Mechanics Tool Set",
+    "sku": null,
+    "product_category": "Tools > Hand Tools > Mechanics Tools",
     "price": 99.0,
     "original_price": null,
     "store": "HOMEDEPOT",
@@ -3091,16 +35,16 @@
       "While supplies last"
     ],
     "attributes": [
-      "Includes 1/4 in., 3/8 in., 1/2 in. drive sockets",
-      "72-tooth ratchets",
-      "wrenches",
-      "storage case"
-    ]
+      "Includes 1/4 in., 3/8 in., 1/2 in. ratchets, 12-point sockets, combination wrenches and storage case"
+    ],
+    "bundle_deal": false,
+    "required_purchase": null,
+    "free_item": null
   },
   {
-    "product_name": "Ring 2 pc. Starter Set",
+    "product_name": "Ring 2 Pc. Starter Set",
     "sku": null,
-    "product_category": "Electronics > Smart Home > Security",
+    "product_category": "Home Security > Smart Home > Security Cameras",
     "price": 69.99,
     "original_price": 139.99,
     "store": "HOMEDEPOT",
@@ -3108,15 +52,19 @@
     "valid_to": "2023-11-26T23:59:59",
     "deal_type": "Black Friday Deal",
     "in_store_only": false,
-    "deal_conditions": [],
+    "deal_conditions": [
+      "While supplies last"
+    ],
     "attributes": [
-      "Includes Ring battery doorbell",
-      "Ring indoor camera"
-    ]
+      "Includes Ring battery doorbell and Ring battery colored floodlight camera"
+    ],
+    "bundle_deal": false,
+    "required_purchase": null,
+    "free_item": null
   },
   {
     "product_name": "HUSKY 2500 Lumen Rechargeable Magnetic LED Work Light",
-    "sku": "1006180883",
+    "sku": "1006810384",
     "product_category": "Tools > Lighting > Work Lights",
     "price": 24.88,
     "original_price": null,
@@ -3125,16 +73,21 @@
     "valid_to": "2023-11-26T23:59:59",
     "deal_type": "Black Friday Deal",
     "in_store_only": false,
-    "deal_conditions": [],
+    "deal_conditions": [
+      "While supplies last"
+    ],
     "attributes": [
       "Rechargeable",
-      "Magnetic"
-    ]
+      "Magnetic tripod LED work light"
+    ],
+    "bundle_deal": false,
+    "required_purchase": null,
+    "free_item": null
   },
   {
-    "product_name": "HUSKY 22 ft. Reach MPX Aluminum Multi-Position Ladder",
+    "product_name": "HUSKY 22 Ft. Reach MPX Aluminum Multi-Position Ladder",
     "sku": "1006487607",
-    "product_category": "Tools > Ladders",
+    "product_category": "Tools > Ladders > Multi-Position Ladders",
     "price": 189.0,
     "original_price": 289.0,
     "store": "HOMEDEPOT",
@@ -3142,31 +95,64 @@
     "valid_to": "2023-11-26T23:59:59",
     "deal_type": "Black Friday Deal",
     "in_store_only": false,
-    "deal_conditions": [],
+    "deal_conditions": [
+      "While supplies last"
+    ],
     "attributes": [
       "300 lb. capacity"
-    ]
+    ],
+    "bundle_deal": false,
+    "required_purchase": null,
+    "free_item": null
   },
   {
-    "product_name": "EXCLUSIVE 9 ft. Kingston Artificial Garland",
-    "sku": "1010959005",
-    "product_category": "Holiday Decorations > Garland",
-    "price": 5.98,
+    "product_name": "Jumbo Holiday LED C9 Pre-Lit Pathway Bulb",
+    "sku": "1006732154",
+    "product_category": "Holiday Decorations > Outdoor Decorations > Pathway Lights",
+    "price": 24.98,
     "original_price": null,
     "store": "HOMEDEPOT",
     "valid_from": "2023-11-06T00:00:00",
     "valid_to": "2023-11-26T23:59:59",
     "deal_type": "Black Friday Deal",
     "in_store_only": false,
-    "deal_conditions": [],
+    "deal_conditions": [
+      "While supplies last"
+    ],
     "attributes": [
-      "Ideal for indoor or outdoor use"
-    ]
+      "Available in red, white, blue, green, multi-color",
+      "Includes 3 bulbs"
+    ],
+    "bundle_deal": false,
+    "required_purchase": null,
+    "free_item": null
   },
   {
-    "product_name": "EXCLUSIVE 5 ft. LED Pre-Lit Festive Pine",
-    "sku": "1007924441",
-    "product_category": "Holiday Decorations > Trees",
+    "product_name": "HDX 27 Gal. Tough Tote",
+    "sku": "207585",
+    "product_category": "Storage & Organization > Storage Containers > Totes",
+    "price": 6.97,
+    "original_price": 8.98,
+    "store": "HOMEDEPOT",
+    "valid_from": "2023-11-06T00:00:00",
+    "valid_to": "2023-11-26T23:59:59",
+    "deal_type": "Black Friday Deal",
+    "in_store_only": false,
+    "deal_conditions": [
+      "While supplies last"
+    ],
+    "attributes": [
+      "Black with yellow lid",
+      "30.75 in. x 20.5 in. x 14.38 in."
+    ],
+    "bundle_deal": false,
+    "required_purchase": null,
+    "free_item": null
+  },
+  {
+    "product_name": "EXCLUSIVE 5.5' LED Pre-Lit Festive Pine Tree",
+    "sku": "1007021441",
+    "product_category": "Holiday Decorations > Christmas Trees > Artificial Trees",
     "price": 49.98,
     "original_price": null,
     "store": "HOMEDEPOT",
@@ -3174,16 +160,127 @@
     "valid_to": "2023-11-26T23:59:59",
     "deal_type": "Black Friday Deal",
     "in_store_only": false,
-    "deal_conditions": [],
+    "deal_conditions": [
+      "While supplies last"
+    ],
     "attributes": [
       "LED lights",
-      "Pre-lit"
-    ]
+      "Festive pine"
+    ],
+    "bundle_deal": false,
+    "required_purchase": null,
+    "free_item": null
   },
   {
-    "product_name": "EXCLUSIVE 3 pc. LED Pre-Lit Candy Cane",
-    "sku": "1005937653",
-    "product_category": "Holiday Decorations > Outdoor Decor",
+    "product_name": "Energizer 30-Pack AAA Batteries",
+    "sku": "535317",
+    "product_category": "Electronics > Batteries > Alkaline Batteries",
+    "price": 18.87,
+    "original_price": 21.87,
+    "store": "HOMEDEPOT",
+    "valid_from": "2023-11-06T00:00:00",
+    "valid_to": "2023-11-26T23:59:59",
+    "deal_type": "Black Friday Deal",
+    "in_store_only": false,
+    "deal_conditions": [
+      "While supplies last"
+    ],
+    "attributes": [
+      "30-pack",
+      "AAA"
+    ],
+    "bundle_deal": false,
+    "required_purchase": null,
+    "free_item": null
+  },
+  {
+    "product_name": "DEWALT ATOMIC 20V MAX Brushless Cordless 2-Tool Combo Kit",
+    "sku": "1006377318",
+    "product_category": "Tools > Power Tools > Combo Kits",
+    "price": 169.0,
+    "original_price": 249.0,
+    "store": "HOMEDEPOT",
+    "valid_from": "2023-11-06T00:00:00",
+    "valid_to": "2023-11-26T23:59:59",
+    "deal_type": "Black Friday Deal",
+    "in_store_only": false,
+    "deal_conditions": [
+      "While supplies last"
+    ],
+    "attributes": [
+      "Includes drill/driver, impact driver, two batteries, charger and bag"
+    ],
+    "bundle_deal": false,
+    "required_purchase": null,
+    "free_item": null
+  },
+  {
+    "product_name": "RIDGID 18V SubCompact Brushless Cordless 2-Tool Combo Kit",
+    "sku": "1006451066",
+    "product_category": "Tools > Power Tools > Combo Kits",
+    "price": 179.0,
+    "original_price": 279.0,
+    "store": "HOMEDEPOT",
+    "valid_from": "2023-11-06T00:00:00",
+    "valid_to": "2023-11-26T23:59:59",
+    "deal_type": "Black Friday Deal",
+    "in_store_only": false,
+    "deal_conditions": [
+      "While supplies last"
+    ],
+    "attributes": [
+      "Includes drill/driver, impact driver, two batteries, charger and bag"
+    ],
+    "bundle_deal": false,
+    "required_purchase": null,
+    "free_item": null
+  },
+  {
+    "product_name": "MILWAUKEE M12 FUEL 12V Lithium-Ion Brushless Cordless Hammer Drill/Impact Driver Combo Kit",
+    "sku": "1006737937",
+    "product_category": "Tools > Power Tools > Combo Kits",
+    "price": 199.0,
+    "original_price": 249.0,
+    "store": "HOMEDEPOT",
+    "valid_from": "2023-11-06T00:00:00",
+    "valid_to": "2023-11-26T23:59:59",
+    "deal_type": "Black Friday Deal",
+    "in_store_only": false,
+    "deal_conditions": [
+      "While supplies last"
+    ],
+    "attributes": [
+      "Includes hammer drill, impact driver, two batteries, charger and bag"
+    ],
+    "bundle_deal": false,
+    "required_purchase": null,
+    "free_item": null
+  },
+  {
+    "product_name": "EXCLUSIVE 9' Kingston Artificial Garland",
+    "sku": "1011090505",
+    "product_category": "Holiday Decorations > Indoor Decorations > Garlands",
+    "price": 5.98,
+    "original_price": null,
+    "store": "HOMEDEPOT",
+    "valid_from": "2023-11-06T00:00:00",
+    "valid_to": "2023-11-26T23:59:59",
+    "deal_type": "Black Friday Deal",
+    "in_store_only": false,
+    "deal_conditions": [
+      "While supplies last"
+    ],
+    "attributes": [
+      "Ideal for indoor or outdoor use"
+    ],
+    "bundle_deal": false,
+    "required_purchase": null,
+    "free_item": null
+  },
+  {
+    "product_name": "EXCLUSIVE 3 Pc. LED Pre-Lit Holiday Cane",
+    "sku": "1005973653",
+    "product_category": "Holiday Decorations > Outdoor Decorations > Pathway Lights",
     "price": 19.98,
     "original_price": null,
     "store": "HOMEDEPOT",
@@ -3196,12 +293,78 @@
     ],
     "attributes": [
       "Ideal for decorating along walkways and sidewalks"
-    ]
+    ],
+    "bundle_deal": false,
+    "required_purchase": null,
+    "free_item": null
   },
   {
-    "product_name": "EXCLUSIVE 4.6 cu. ft. Stainless Steel French Door Refrigerator",
-    "sku": "1006517956",
-    "product_category": "Appliances > Refrigerators",
+    "product_name": "EXCLUSIVE 3 Pc. LED Pre-Lit Holiday Snowman",
+    "sku": "1005973654",
+    "product_category": "Holiday Decorations > Outdoor Decorations > Figures",
+    "price": 99.0,
+    "original_price": null,
+    "store": "HOMEDEPOT",
+    "valid_from": "2023-11-06T00:00:00",
+    "valid_to": "2023-11-26T23:59:59",
+    "deal_type": "Black Friday Deal",
+    "in_store_only": false,
+    "deal_conditions": [
+      "While supplies last"
+    ],
+    "attributes": [
+      "Collapsible design provides easy storage"
+    ],
+    "bundle_deal": false,
+    "required_purchase": null,
+    "free_item": null
+  },
+  {
+    "product_name": "EXCLUSIVE 5 Pc. LED Pre-Lit Reindeer Family",
+    "sku": "1005973655",
+    "product_category": "Holiday Decorations > Outdoor Decorations > Figures",
+    "price": 199.0,
+    "original_price": null,
+    "store": "HOMEDEPOT",
+    "valid_from": "2023-11-06T00:00:00",
+    "valid_to": "2023-11-26T23:59:59",
+    "deal_type": "Black Friday Deal",
+    "in_store_only": false,
+    "deal_conditions": [
+      "While supplies last"
+    ],
+    "attributes": [
+      "Collapsible design provides easy storage"
+    ],
+    "bundle_deal": false,
+    "required_purchase": null,
+    "free_item": null
+  },
+  {
+    "product_name": "EXCLUSIVE 3.5' LED Pre-Lit Lying Deer",
+    "sku": "1005973656",
+    "product_category": "Holiday Decorations > Outdoor Decorations > Figures",
+    "price": 39.98,
+    "original_price": null,
+    "store": "HOMEDEPOT",
+    "valid_from": "2023-11-06T00:00:00",
+    "valid_to": "2023-11-26T23:59:59",
+    "deal_type": "Black Friday Deal",
+    "in_store_only": false,
+    "deal_conditions": [
+      "While supplies last"
+    ],
+    "attributes": [
+      "Collapsible design provides easy storage"
+    ],
+    "bundle_deal": false,
+    "required_purchase": null,
+    "free_item": null
+  },
+  {
+    "product_name": "LG 26.2 Cu. Ft. Stainless Steel French Door Refrigerator",
+    "sku": "1006517966",
+    "product_category": "Appliances > Refrigerators > French Door Refrigerators",
     "price": 1698.0,
     "original_price": 3099.0,
     "store": "HOMEDEPOT",
@@ -3209,16 +372,22 @@
     "valid_to": "2023-12-03T23:59:59",
     "deal_type": "Appliance Sale",
     "in_store_only": false,
-    "deal_conditions": [],
+    "deal_conditions": [
+      "Save $1401",
+      "Valid 11/15-12/3/2025"
+    ],
     "attributes": [
       "Craft Ice",
-      "Energy Star"
-    ]
+      "Smart Wi-Fi Enabled"
+    ],
+    "bundle_deal": false,
+    "required_purchase": null,
+    "free_item": null
   },
   {
-    "product_name": "EXCLUSIVE 27 cu. ft. Stainless Steel French Door Refrigerator",
-    "sku": "1006517955",
-    "product_category": "Appliances > Refrigerators",
+    "product_name": "GE Appliances 27 Cu. Ft. Stainless Steel French Door Refrigerator",
+    "sku": "1006517965",
+    "product_category": "Appliances > Refrigerators > French Door Refrigerators",
     "price": 1398.0,
     "original_price": 2599.0,
     "store": "HOMEDEPOT",
@@ -3226,16 +395,21 @@
     "valid_to": "2023-12-03T23:59:59",
     "deal_type": "Appliance Sale",
     "in_store_only": false,
-    "deal_conditions": [],
+    "deal_conditions": [
+      "Save $1201",
+      "Valid 11/15-12/3/2025"
+    ],
     "attributes": [
-      "Dual ice maker",
-      "Water filtration"
-    ]
+      "Advanced water filtration"
+    ],
+    "bundle_deal": false,
+    "required_purchase": null,
+    "free_item": null
   },
   {
-    "product_name": "EXCLUSIVE 4.6 cu. ft. Ultrafast Combo Washer Dryer",
+    "product_name": "GE Profile 4.6 Cu. Ft. Ultrafast Combo Washer/Dryer",
     "sku": "1006831846",
-    "product_category": "Appliances > Washers & Dryers",
+    "product_category": "Appliances > Washers & Dryers > Combo Units",
     "price": 1798.0,
     "original_price": 2699.0,
     "store": "HOMEDEPOT",
@@ -3243,16 +417,21 @@
     "valid_to": "2023-12-03T23:59:59",
     "deal_type": "Appliance Sale",
     "in_store_only": false,
-    "deal_conditions": [],
+    "deal_conditions": [
+      "Save $901",
+      "Valid 11/15-12/3/2025"
+    ],
     "attributes": [
-      "Ventless",
-      "Smart"
-    ]
+      "Smart dispense technology"
+    ],
+    "bundle_deal": false,
+    "required_purchase": null,
+    "free_item": null
   },
   {
-    "product_name": "EXCLUSIVE 4.6 cu. ft. HE Washer",
-    "sku": "1007924441",
-    "product_category": "Appliances > Washers & Dryers",
+    "product_name": "GE Appliances 4.6 Cu. Ft. HE Washer",
+    "sku": "1007021442",
+    "product_category": "Appliances > Washers & Dryers > Washers",
     "price": 568.0,
     "original_price": 849.0,
     "store": "HOMEDEPOT",
@@ -3260,10 +439,15 @@
     "valid_to": "2023-12-03T23:59:59",
     "deal_type": "Appliance Sale",
     "in_store_only": false,
-    "deal_conditions": [],
+    "deal_conditions": [
+      "Save $281",
+      "Valid 11/15-12/3/2025"
+    ],
     "attributes": [
-      "Smart",
-      "Energy Star"
-    ]
+      "Smart dispense technology"
+    ],
+    "bundle_deal": false,
+    "required_purchase": null,
+    "free_item": null
   }
 ]

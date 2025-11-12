@@ -110,8 +110,18 @@ Each object in the list must conform to the following schema:
         "deal_conditions": ["Buy battery kit to get 1 free tool", "Valid 10/27/2025-2/1/2026"]
       }
 
+11. **Choice-Based Deals (CRITICAL):** When you see "Choose X OR Y" or "Pick A or B", create SEPARATE deals:
+    - Example: "Choose 30-pack AAA OR 36-pack AA batteries for $18.87 each"
+    - Extract as TWO separate deals:
+      1. {"product_name": "Energizer 30-Pack AAA Batteries", "price": 18.87}
+      2. {"product_name": "Energizer 36-Pack AA Batteries", "price": 18.87}
+    - Each choice is a valid standalone product that customers can search for
+    - Do NOT combine them into one deal
+    - Do NOT put "or" in the product_name
+
 CRITICAL: Do NOT skip any deals. If you see 10 products, extract all 10. If you see 50 products, extract all 50.
 CRITICAL: Do NOT create separate deals for free items with $0 price. Bundle them with the purchase item.
+CRITICAL: For "Choose X or Y" offers, create one deal for EACH choice option.
 """
 
 def encode_image_to_base64(image_path):
