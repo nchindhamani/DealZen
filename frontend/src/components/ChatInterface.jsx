@@ -124,7 +124,13 @@ const ChatInterface = () => {
     { sender: 'ai', text: "Hi! I'm DealZen, your Black Friday assistant. Ask me about any deal!" }
   ]);
   const [isLoading, setIsLoading] = useState(false);
-  const { hasReachedLimit, remainingQuestions, incrementCount } = useUserLimits(10);
+  
+  // TODO: Re-enable user limits after testing
+  // const { hasReachedLimit, remainingQuestions, incrementCount } = useUserLimits(10);
+  const hasReachedLimit = false; // Temporarily disabled for testing
+  const remainingQuestions = '∞'; // Unlimited for testing
+  const incrementCount = () => {}; // No-op for testing
+  
   const chatLogRef = useRef(null);
 
   // Auto-scroll to bottom
