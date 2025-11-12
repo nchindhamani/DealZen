@@ -41,6 +41,56 @@ def create_vector_text(deal: dict):
     )
 
 def main():
+    print("\n" + "="*70)
+    print("🚀 DEALZEN DATA INGESTION WITH AUTOMATED QUALITY CONTROL")
+    print("="*70)
+    
+    # ========================================
+    # STEP 1: AUTOMATIC QUALITY VALIDATION
+    # ========================================
+    print("\n🔍 Step 1: Running automated quality validation...")
+    
+    try:
+        from validate_extraction import QualityValidator, print_validation_report
+        
+        validator = QualityValidator()
+        report = validator.validate()
+        
+        print_validation_report(report)
+        
+        decision = report['decision']
+        score = report['score']
+        
+        # Auto-decision based on quality score
+        if decision == 'REJECT':
+            print("🛑 INGESTION BLOCKED - Quality score too low")
+            print(f"\n📋 Issues Found:")
+            for error in report['errors'][:5]:
+                print(f"   • {error}")
+            print(f"\n💡 Recommendation: Re-run extraction with enhanced prompt")
+            print("   Command: python scripts/process_flyers.py")
+            return
+        
+        elif decision == 'RETRY':
+            print(f"⚠️  Quality score {score}/100 is borderline")
+            print(f"   Proceeding with ingestion, but consider re-extraction for better quality")
+            print(f"   (Auto-accepting scores 50+ for production efficiency)")
+        
+        else:  # ACCEPT
+            print(f"✅ Quality validation passed (score: {score}/100)")
+            if score >= 85:
+                print(f"   Excellent quality - proceeding with confidence")
+            else:
+                print(f"   Good quality - proceeding with ingestion")
+    
+    except ImportError:
+        print("⚠️  Warning: Validation module not found, skipping quality check")
+    except Exception as e:
+        print(f"⚠️  Warning: Validation failed with error: {e}")
+        print("   Proceeding with ingestion anyway...")
+    
+    print("\n🔍 Step 2: Connecting to Weaviate and creating collection...")
+    
     client = get_weaviate_client()
     
     collection_name = "Deal"
@@ -147,6 +197,18 @@ def main():
                     pass
     else:
         print(f"\n✅ Successfully ingested {len(data)} deals with no errors!")
+    
+    print("\n" + "="*70)
+    print("✅ INGESTION COMPLETE")
+    print("="*70)
+    print(f"\n📊 Summary:")
+    print(f"   Total deals in database: {len(data)}")
+    print(f"   Weaviate collection: {collection_name}")
+    print(f"\n🚀 Next Steps:")
+    print(f"   1. Start backend: cd backend && uvicorn app.main:app --reload")
+    print(f"   2. Start frontend: cd frontend && npm run dev")
+    print(f"   3. Test queries at: http://localhost:5173")
+    print("="*70 + "\n")
 
 if __name__ == "__main__":
     main()
