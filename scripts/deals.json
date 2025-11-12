@@ -1,7 +1,7 @@
 [
   {
-    "product_name": "RYOBI ONE+ 18V 6-Tool 1.5Ah/4.0Ah Kit",
-    "sku": "1006702368",
+    "product_name": "RYOBI ONE+ 18V 6-tool 1.5Ah/4.0Ah Kit",
+    "sku": "1006726348",
     "product_category": "Tools > Power Tools > Combo Kits",
     "price": 199.0,
     "original_price": 299.0,
@@ -21,8 +21,8 @@
     "free_item": null
   },
   {
-    "product_name": "HUSKY 270 pc. Mechanics Tool Set",
-    "sku": "1000053396",
+    "product_name": "HUSKY 268 Pc. Mechanics Tool Set",
+    "sku": "1000052093",
     "product_category": "Tools > Hand Tools > Mechanics Tool Sets",
     "price": 99.0,
     "original_price": null,
@@ -35,7 +35,7 @@
       "While supplies last"
     ],
     "attributes": [
-      "Includes 1/4 in., 3/8 in. and 1/2 in. drive sockets, ratchets, and 72-tooth ratchet"
+      "Includes 1/4 in., 3/8 in., 1/2 in. drive sockets, ratchets, and 72-tooth ratchets"
     ],
     "bundle_deal": false,
     "required_purchase": null,
@@ -44,7 +44,7 @@
   {
     "product_name": "Ring 2 pc. Starter Set",
     "sku": null,
-    "product_category": "Electronics > Smart Home > Security Systems",
+    "product_category": "Smart Home > Security Systems > Doorbell Cameras",
     "price": 69.99,
     "original_price": 139.99,
     "store": "HOMEDEPOT",
@@ -56,15 +56,15 @@
       "While supplies last"
     ],
     "attributes": [
-      "Includes Ring battery doorbell and Ring battery colored floodlight camera"
+      "Includes Ring battery doorbell and Ring indoor camera"
     ],
     "bundle_deal": false,
     "required_purchase": null,
     "free_item": null
   },
   {
-    "product_name": "EXCLUSIVE 2500 Lumen Rechargeable Magnetic LED Work Light",
-    "sku": "1006810386",
+    "product_name": "HUSKY 2500 Lumen Rechargeable Magnetic LED Work Light",
+    "sku": "1006810348",
     "product_category": "Tools > Lighting > Work Lights",
     "price": 24.88,
     "original_price": null,
@@ -74,16 +74,19 @@
     "deal_type": "Black Friday Deal",
     "in_store_only": false,
     "deal_conditions": [
-      "Your choice"
+      "While supplies last"
     ],
-    "attributes": [],
+    "attributes": [
+      "Rechargeable",
+      "Magnetic tripod LED work light"
+    ],
     "bundle_deal": false,
     "required_purchase": null,
     "free_item": null
   },
   {
-    "product_name": "EXCLUSIVE 800 Lumen Rechargeable Magnetic Tripod LED Work Light",
-    "sku": "1006810385",
+    "product_name": "HUSKY 800 Lumen Rechargeable Magnetic Tripod LED Work Light",
+    "sku": "1006810349",
     "product_category": "Tools > Lighting > Work Lights",
     "price": 24.88,
     "original_price": null,
@@ -93,15 +96,18 @@
     "deal_type": "Black Friday Deal",
     "in_store_only": false,
     "deal_conditions": [
-      "Your choice"
+      "While supplies last"
     ],
-    "attributes": [],
+    "attributes": [
+      "Rechargeable",
+      "Magnetic tripod LED work light"
+    ],
     "bundle_deal": false,
     "required_purchase": null,
     "free_item": null
   },
   {
-    "product_name": "EXCLUSIVE 22 ft. Reach MPX Aluminum Multi-Position Ladder",
+    "product_name": "EXCLUSIVE 22 Ft. Reach MPX Aluminum Multi-Position Ladder",
     "sku": "1006487607",
     "product_category": "Tools > Ladders > Multi-Position Ladders",
     "price": 189.0,
@@ -122,10 +128,10 @@
     "free_item": null
   },
   {
-    "product_name": "EXCLUSIVE 9 ft. LED Pre-Lit Inflatable Snowman",
-    "sku": "1006792441",
-    "product_category": "Holiday Decorations > Inflatables",
-    "price": 99.0,
+    "product_name": "EXCLUSIVE 3 pc. LED Pre-Lit Jumbo Holiday Bulb",
+    "sku": "1006732154",
+    "product_category": "Holiday Decorations > Outdoor Decorations > Holiday Lights",
+    "price": 24.98,
     "original_price": null,
     "store": "HOMEDEPOT",
     "valid_from": "2023-11-06T00:00:00",
@@ -136,56 +142,17 @@
       "While supplies last"
     ],
     "attributes": [
-      "Collapsible design provides easy storage"
+      "Includes red, white, blue bulbs",
+      "Indoor/outdoor use"
     ],
-    "bundle_deal": false,
-    "required_purchase": null,
-    "free_item": null
-  },
-  {
-    "product_name": "EXCLUSIVE 3 pc. LED Pre-Lit Candy Cane",
-    "sku": "1006792453",
-    "product_category": "Holiday Decorations > Outdoor Decorations",
-    "price": 19.98,
-    "original_price": null,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Black Friday Deal",
-    "in_store_only": false,
-    "deal_conditions": [
-      "While supplies last"
-    ],
-    "attributes": [
-      "Ideal for decorating along walkways and sidewalks"
-    ],
-    "bundle_deal": false,
-    "required_purchase": null,
-    "free_item": null
-  },
-  {
-    "product_name": "EXCLUSIVE 5 ft. LED Pre-Lit Festive Pine",
-    "sku": "1006792444",
-    "product_category": "Holiday Decorations > Christmas Trees",
-    "price": 49.98,
-    "original_price": null,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Black Friday Deal",
-    "in_store_only": false,
-    "deal_conditions": [
-      "While supplies last"
-    ],
-    "attributes": [],
     "bundle_deal": false,
     "required_purchase": null,
     "free_item": null
   },
   {
     "product_name": "HDX 27 Gal. Tough Tote",
-    "sku": "1006722154",
-    "product_category": "Storage & Organization > Storage Containers",
+    "sku": "1006721544",
+    "product_category": "Storage & Organization > Storage Containers > Totes",
     "price": 6.97,
     "original_price": 8.98,
     "store": "HOMEDEPOT",
@@ -197,6 +164,7 @@
       "While supplies last"
     ],
     "attributes": [
+      "27 Gal.",
       "30.75 in. x 20.5 in. x 14.38 in."
     ],
     "bundle_deal": false,
@@ -204,9 +172,31 @@
     "free_item": null
   },
   {
-    "product_name": "Energizer 30-Pack AAA Batteries",
-    "sku": "535317",
-    "product_category": "Electronics > Batteries",
+    "product_name": "EXCLUSIVE 5.5' LED Pre-Lit Festive Pine",
+    "sku": "1006729441",
+    "product_category": "Holiday Decorations > Christmas Trees > Artificial Trees",
+    "price": 49.98,
+    "original_price": null,
+    "store": "HOMEDEPOT",
+    "valid_from": "2023-11-06T00:00:00",
+    "valid_to": "2023-11-26T23:59:59",
+    "deal_type": "Black Friday Deal",
+    "in_store_only": false,
+    "deal_conditions": [
+      "While supplies last"
+    ],
+    "attributes": [
+      "LED lights",
+      "Festive pine"
+    ],
+    "bundle_deal": false,
+    "required_purchase": null,
+    "free_item": null
+  },
+  {
+    "product_name": "Energizer 30-pack AAA Batteries",
+    "sku": "1006729442",
+    "product_category": "Electrical > Batteries > Alkaline Batteries",
     "price": 18.87,
     "original_price": 21.87,
     "store": "HOMEDEPOT",
@@ -218,186 +208,17 @@
       "While supplies last"
     ],
     "attributes": [
-      "Choice: 30-pack AAA or 36-pack AA"
+      "30-pack",
+      "AAA"
     ],
     "bundle_deal": false,
     "required_purchase": null,
     "free_item": null
   },
   {
-    "product_name": "Energizer 36-Pack AA Batteries",
-    "sku": "535317",
-    "product_category": "Electronics > Batteries",
-    "price": 18.87,
-    "original_price": 21.87,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Black Friday Deal",
-    "in_store_only": false,
-    "deal_conditions": [
-      "While supplies last"
-    ],
-    "attributes": [
-      "Choice: 30-pack AAA or 36-pack AA"
-    ],
-    "bundle_deal": false,
-    "required_purchase": null,
-    "free_item": null
-  },
-  {
-    "product_name": "DEWALT ATOMIC 20V MAX 2-Tool Combo Kit",
-    "sku": "1006373173",
-    "product_category": "Tools > Power Tools > Combo Kits",
-    "price": 169.0,
-    "original_price": 249.0,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Black Friday Deal",
-    "in_store_only": false,
-    "deal_conditions": [
-      "While supplies last"
-    ],
-    "attributes": [
-      "Includes drill/driver, impact driver and bag"
-    ],
-    "bundle_deal": false,
-    "required_purchase": null,
-    "free_item": null
-  },
-  {
-    "product_name": "RIDGID 18V SubCompact Brushless 2-Tool Combo Kit",
-    "sku": "1006451066",
-    "product_category": "Tools > Power Tools > Combo Kits",
-    "price": 179.0,
-    "original_price": 279.0,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Black Friday Deal",
-    "in_store_only": false,
-    "deal_conditions": [
-      "While supplies last"
-    ],
-    "attributes": [
-      "Includes 2 Ah battery, charger and bag"
-    ],
-    "bundle_deal": false,
-    "required_purchase": null,
-    "free_item": null
-  },
-  {
-    "product_name": "MILWAUKEE M12 FUEL 12V Lithium-Ion Brushless Cordless Hammer Drill/Impact Driver Combo Kit",
-    "sku": "1006793737",
-    "product_category": "Tools > Power Tools > Combo Kits",
-    "price": 199.0,
-    "original_price": 249.0,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-06T00:00:00",
-    "valid_to": "2023-11-26T23:59:59",
-    "deal_type": "Black Friday Deal",
-    "in_store_only": false,
-    "deal_conditions": [
-      "While supplies last"
-    ],
-    "attributes": [
-      "Includes two batteries, charger and bag"
-    ],
-    "bundle_deal": false,
-    "required_purchase": null,
-    "free_item": null
-  },
-  {
-    "product_name": "LG 26 cu. ft. Stainless Steel French Door Refrigerator",
-    "sku": "1006571366",
-    "product_category": "Appliances > Refrigerators",
-    "price": 1698.0,
-    "original_price": 3099.0,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-15T00:00:00",
-    "valid_to": "2023-12-03T23:59:59",
-    "deal_type": "Appliance Sale",
-    "in_store_only": false,
-    "deal_conditions": [
-      "Save $1401"
-    ],
-    "attributes": [
-      "Craft Ice",
-      "PrintProof"
-    ],
-    "bundle_deal": false,
-    "required_purchase": null,
-    "free_item": null
-  },
-  {
-    "product_name": "GE APPLIANCES 27 cu. ft. Stainless Steel French Door Refrigerator",
-    "sku": "1006571365",
-    "product_category": "Appliances > Refrigerators",
-    "price": 1398.0,
-    "original_price": 2599.0,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-15T00:00:00",
-    "valid_to": "2023-12-03T23:59:59",
-    "deal_type": "Appliance Sale",
-    "in_store_only": false,
-    "deal_conditions": [
-      "Save $1201"
-    ],
-    "attributes": [
-      "Advanced water filtration"
-    ],
-    "bundle_deal": false,
-    "required_purchase": null,
-    "free_item": null
-  },
-  {
-    "product_name": "GE Profile 4.6 cu. ft. Ultrafast Combo Washer/Dryer",
-    "sku": "1006831846",
-    "product_category": "Appliances > Washers & Dryers",
-    "price": 1798.0,
-    "original_price": 2699.0,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-15T00:00:00",
-    "valid_to": "2023-12-03T23:59:59",
-    "deal_type": "Appliance Sale",
-    "in_store_only": false,
-    "deal_conditions": [
-      "Save $901"
-    ],
-    "attributes": [
-      "Ventless dryer",
-      "Washer with Microban"
-    ],
-    "bundle_deal": false,
-    "required_purchase": null,
-    "free_item": null
-  },
-  {
-    "product_name": "GE 4.6 cu. ft. HE Washer",
-    "sku": "1006793736",
-    "product_category": "Appliances > Washers & Dryers",
-    "price": 568.0,
-    "original_price": 849.0,
-    "store": "HOMEDEPOT",
-    "valid_from": "2023-11-15T00:00:00",
-    "valid_to": "2023-12-03T23:59:59",
-    "deal_type": "Appliance Sale",
-    "in_store_only": false,
-    "deal_conditions": [
-      "Save $281"
-    ],
-    "attributes": [
-      "Sanitize with Oxi"
-    ],
-    "bundle_deal": false,
-    "required_purchase": null,
-    "free_item": null
-  },
-  {
-    "product_name": "EXCLUSIVE 9 ft. Kingston Artificial Garland",
+    "product_name": "EXCLUSIVE 9' Kingston Artificial Garland",
     "sku": "1011090505",
-    "product_category": "Holiday Decorations > Garlands",
+    "product_category": "Holiday Decorations > Garland > Artificial Garland",
     "price": 5.98,
     "original_price": null,
     "store": "HOMEDEPOT",
@@ -416,9 +237,51 @@
     "free_item": null
   },
   {
-    "product_name": "EXCLUSIVE 5.5 ft. LED Pre-Lit Reindeer",
-    "sku": "1006792452",
-    "product_category": "Holiday Decorations > Outdoor Decorations",
+    "product_name": "EXCLUSIVE 3 pc. LED Pre-Lit Holiday Cane",
+    "sku": "1006732155",
+    "product_category": "Holiday Decorations > Outdoor Decorations > Holiday Lights",
+    "price": 19.98,
+    "original_price": null,
+    "store": "HOMEDEPOT",
+    "valid_from": "2023-11-06T00:00:00",
+    "valid_to": "2023-11-26T23:59:59",
+    "deal_type": "Black Friday Deal",
+    "in_store_only": false,
+    "deal_conditions": [
+      "While supplies last"
+    ],
+    "attributes": [
+      "Ideal for decorating along walkways and sidewalks"
+    ],
+    "bundle_deal": false,
+    "required_purchase": null,
+    "free_item": null
+  },
+  {
+    "product_name": "EXCLUSIVE 9' LED Pre-Lit Reindeer",
+    "sku": "1006732156",
+    "product_category": "Holiday Decorations > Outdoor Decorations > Holiday Lights",
+    "price": 99.0,
+    "original_price": null,
+    "store": "HOMEDEPOT",
+    "valid_from": "2023-11-06T00:00:00",
+    "valid_to": "2023-11-26T23:59:59",
+    "deal_type": "Black Friday Deal",
+    "in_store_only": false,
+    "deal_conditions": [
+      "While supplies last"
+    ],
+    "attributes": [
+      "Collapsible design provides easy storage"
+    ],
+    "bundle_deal": false,
+    "required_purchase": null,
+    "free_item": null
+  },
+  {
+    "product_name": "EXCLUSIVE 3.5' LED Pre-Lit Lying Deer",
+    "sku": "1006732157",
+    "product_category": "Holiday Decorations > Outdoor Decorations > Holiday Lights",
     "price": 39.98,
     "original_price": null,
     "store": "HOMEDEPOT",
@@ -427,9 +290,165 @@
     "deal_type": "Black Friday Deal",
     "in_store_only": false,
     "deal_conditions": [
-      "Your choice"
+      "While supplies last"
     ],
-    "attributes": [],
+    "attributes": [
+      "Collapsible design provides easy storage"
+    ],
+    "bundle_deal": false,
+    "required_purchase": null,
+    "free_item": null
+  },
+  {
+    "product_name": "LG EXCLUSIVE 22 cu. ft. Stainless Steel French Door Refrigerator",
+    "sku": "1006571366",
+    "product_category": "Appliances > Refrigerators > French Door Refrigerators",
+    "price": 1698.0,
+    "original_price": 3099.0,
+    "store": "HOMEDEPOT",
+    "valid_from": "2023-11-15T00:00:00",
+    "valid_to": "2023-12-03T23:59:59",
+    "deal_type": "Appliance Sale",
+    "in_store_only": false,
+    "deal_conditions": [
+      "Save $1401",
+      "Valid 11/15-12/3/2025"
+    ],
+    "attributes": [
+      "Craft Ice",
+      "Door-in-Door"
+    ],
+    "bundle_deal": false,
+    "required_purchase": null,
+    "free_item": null
+  },
+  {
+    "product_name": "EXCLUSIVE 27 cu. ft. Stainless Steel French Door Refrigerator",
+    "sku": "1006571367",
+    "product_category": "Appliances > Refrigerators > French Door Refrigerators",
+    "price": 1398.0,
+    "original_price": 2599.0,
+    "store": "HOMEDEPOT",
+    "valid_from": "2023-11-15T00:00:00",
+    "valid_to": "2023-12-03T23:59:59",
+    "deal_type": "Appliance Sale",
+    "in_store_only": false,
+    "deal_conditions": [
+      "Save $1201",
+      "Valid 11/15-12/3/2025"
+    ],
+    "attributes": [
+      "Dual ice maker",
+      "Water filtration"
+    ],
+    "bundle_deal": false,
+    "required_purchase": null,
+    "free_item": null
+  },
+  {
+    "product_name": "Profile EXCLUSIVE 4.6 cu. ft. Ultrafast Combo Washer Dryer",
+    "sku": "1006571368",
+    "product_category": "Appliances > Washers & Dryers > Washer Dryer Combos",
+    "price": 1798.0,
+    "original_price": 2699.0,
+    "store": "HOMEDEPOT",
+    "valid_from": "2023-11-15T00:00:00",
+    "valid_to": "2023-12-03T23:59:59",
+    "deal_type": "Appliance Sale",
+    "in_store_only": false,
+    "deal_conditions": [
+      "Save $901",
+      "Valid 11/15-12/3/2025"
+    ],
+    "attributes": [
+      "Ultrafast",
+      "Ventless"
+    ],
+    "bundle_deal": false,
+    "required_purchase": null,
+    "free_item": null
+  },
+  {
+    "product_name": "EXCLUSIVE 4.6 cu. ft. HE Washer",
+    "sku": "1006571369",
+    "product_category": "Appliances > Washers & Dryers > Washing Machines",
+    "price": 568.0,
+    "original_price": 849.0,
+    "store": "HOMEDEPOT",
+    "valid_from": "2023-11-15T00:00:00",
+    "valid_to": "2023-12-03T23:59:59",
+    "deal_type": "Appliance Sale",
+    "in_store_only": false,
+    "deal_conditions": [
+      "Save $281",
+      "Valid 11/15-12/3/2025"
+    ],
+    "attributes": [
+      "Impeller gives more water for larger loads"
+    ],
+    "bundle_deal": false,
+    "required_purchase": null,
+    "free_item": null
+  },
+  {
+    "product_name": "DEWALT 20V MAX Brushless Drill/Driver and Impact Driver Kit",
+    "sku": "1006732173",
+    "product_category": "Tools > Power Tools > Drill/Driver Kits",
+    "price": 169.0,
+    "original_price": 249.0,
+    "store": "HOMEDEPOT",
+    "valid_from": "2023-11-06T00:00:00",
+    "valid_to": "2023-11-26T23:59:59",
+    "deal_type": "Black Friday Deal",
+    "in_store_only": false,
+    "deal_conditions": [
+      "While supplies last"
+    ],
+    "attributes": [
+      "Includes two batteries, charger, and bag"
+    ],
+    "bundle_deal": false,
+    "required_purchase": null,
+    "free_item": null
+  },
+  {
+    "product_name": "RIDGID 18V Brushless 2-Tool Combo Kit",
+    "sku": "1006451066",
+    "product_category": "Tools > Power Tools > Combo Kits",
+    "price": 179.0,
+    "original_price": 279.0,
+    "store": "HOMEDEPOT",
+    "valid_from": "2023-11-06T00:00:00",
+    "valid_to": "2023-11-26T23:59:59",
+    "deal_type": "Black Friday Deal",
+    "in_store_only": false,
+    "deal_conditions": [
+      "While supplies last"
+    ],
+    "attributes": [
+      "Includes hammer drill, impact driver, two batteries, charger, and bag"
+    ],
+    "bundle_deal": false,
+    "required_purchase": null,
+    "free_item": null
+  },
+  {
+    "product_name": "Milwaukee M12 Fuel 12V Lithium-Ion Brushless Cordless Hammer Drill/Impact Driver Combo Kit",
+    "sku": "1006732174",
+    "product_category": "Tools > Power Tools > Combo Kits",
+    "price": 199.0,
+    "original_price": 249.0,
+    "store": "HOMEDEPOT",
+    "valid_from": "2023-11-06T00:00:00",
+    "valid_to": "2023-11-26T23:59:59",
+    "deal_type": "Black Friday Deal",
+    "in_store_only": false,
+    "deal_conditions": [
+      "While supplies last"
+    ],
+    "attributes": [
+      "Includes two batteries, charger, and bag"
+    ],
     "bundle_deal": false,
     "required_purchase": null,
     "free_item": null

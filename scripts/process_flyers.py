@@ -119,9 +119,13 @@ Each object in the list must conform to the following schema:
     - Do NOT combine them into one deal
     - Do NOT put "or" in the product_name
 
-CRITICAL: Do NOT skip any deals. If you see 10 products, extract all 10. If you see 50 products, extract all 50.
-CRITICAL: Do NOT create separate deals for free items with $0 price. Bundle them with the purchase item.
-CRITICAL: For "Choose X or Y" offers, create one deal for EACH choice option.
+CRITICAL RULES (Must Follow):
+1. Do NOT skip any deals. If you see 10 products, extract all 10. If you see 50 products, extract all 50.
+2. Do NOT create separate deals for free items with $0 price. Bundle them with the purchase item.
+3. For "Choose X or Y" / "Pick A or B" offers, create SEPARATE deals for EACH option:
+   - If text says "Choose 30-pack OR 36-pack for $X", extract TWO deals
+   - If text says "Select Product A or Product B", extract TWO deals
+   - Each choice = One separate deal entry
 """
 
 def encode_image_to_base64(image_path):
@@ -158,6 +162,10 @@ Use this store name for all deals unless you see clear different branding in the
 
 SCAN EVERY SECTION: Top, middle, bottom, left, right, corners.
 Extract EVERY product that has a price - large items, small items, featured items, background items.
+
+⚠️ SPECIAL ATTENTION - Choice-Based Deals:
+If you see text like "Choose X or Y", "Pick A or B", "Select from...", create SEPARATE deals for EACH option.
+Example: "Choose 30-pack OR 36-pack for $18.87" = TWO deals (one for 30-pack, one for 36-pack)
 
 Your extraction count target: If you see 50 items, extract 50. If you see 100 items, extract 100.
 Do not stop early. Extract until every priced product is captured."""
