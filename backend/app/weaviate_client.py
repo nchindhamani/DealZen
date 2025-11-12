@@ -63,6 +63,9 @@ def get_deal_schema():
         wvc.Property(name="deal_conditions", data_type=wvc.DataType.TEXT_ARRAY, tokenization=wvc.Tokenization.FIELD),
         wvc.Property(name="valid_from", data_type=wvc.DataType.DATE),  # Date filtering
         wvc.Property(name="valid_to", data_type=wvc.DataType.DATE),    # Date filtering
+        wvc.Property(name="bundle_deal", data_type=wvc.DataType.BOOL),  # Bundle/combo deals
+        wvc.Property(name="required_purchase", data_type=wvc.DataType.TEXT, tokenization=wvc.Tokenization.WORD),  # What to buy
+        wvc.Property(name="free_item", data_type=wvc.DataType.TEXT, tokenization=wvc.Tokenization.WORD),  # What comes free
         wvc.Property(name="full_json", data_type=wvc.DataType.TEXT, skip_vectorization=True),
     ]
 

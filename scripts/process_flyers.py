@@ -37,15 +37,18 @@ Each object in the list must conform to the following schema:
   "product_name": "string (The full product name, e.g., 'Samsung 55\" QLED TV (QN55Q80C)')",
   "sku": "string or null (The product SKU or model number, e.g., 'QN55Q80CBUXA')",
   "product_category": "string or null (The product category, e.g., 'Electronics > Televisions > QLED TVs')",
-  "price": "float (The sale price, e.g., 499.99. Use numbers only)",
+  "price": "float (The sale price, e.g., 499.99. Use numbers only. For 'Buy X Get Y Free' offers, use the price of what you BUY, not 0)",
   "original_price": "float or null (The original/regular price, e.g., 799.99)",
   "store": "string (The store name, e.g., 'Best Buy', 'Walmart')",
   "valid_from": "string or null (The ISO 8601 date the deal starts, e.g., '2025-11-27T08:00:00')",
   "valid_to": "string or null (The ISO 8601 date the deal ends, e.g., '2025-11-28T23:59:59')",
-  "deal_type": "string (A short description of the deal, e.g., 'Black Friday Door Crasher', 'Online Special')",
+  "deal_type": "string (A short description of the deal, e.g., 'Black Friday Door Crasher', 'Buy One Get One Free', 'Free Gift with Purchase')",
   "in_store_only": "boolean (true if the deal is in-store only, otherwise false)",
-  "deal_conditions": "list[string] (A list of fine-print conditions, e.g., ['Limit 1 per customer', 'While supplies last'])",
-  "attributes": "list[string] (A list of key product features, e.g., ['QLED', '55-inch', '4K', 'Smart TV'])"
+  "deal_conditions": "list[string] (A list of fine-print conditions, e.g., ['Limit 1 per customer', 'While supplies last', 'Buy 2-Pack Battery Kit to get free tool'])",
+  "attributes": "list[string] (A list of key product features, e.g., ['QLED', '55-inch', '4K', 'Smart TV'])",
+  "bundle_deal": "boolean (true if this is a bundle/combo deal like 'Buy X Get Y Free', otherwise false)",
+  "required_purchase": "string or null (For 'Get Free' offers, what product must be purchased. e.g., '2-Pack ONE+ 18V Battery Kit ($99)'. Otherwise null)",
+  "free_item": "string or null (For bundle deals, what item comes free. e.g., 'Choice of select power tools'. Otherwise null)"
 }
 
 --- INSTRUCTIONS ---
@@ -75,7 +78,26 @@ Each object in the list must conform to the following schema:
 
 9.  **JSON ONLY:** Your output must start with `[` and end with `]`.
 
+10. **Bundle Deals & Promotions:** Handle "Buy X Get Y Free" offers correctly:
+    - If you see "BUY ONE OF THESE" + "GET 1 FREE", create ONE deal entry for the PURCHASE item
+    - Set `bundle_deal` to true
+    - Set `price` to the purchase item's price (NOT $0)
+    - Set `required_purchase` to describe what needs to be bought
+    - Set `free_item` to describe what comes free
+    - Add complete details in `deal_conditions`
+    - Example: Battery kit for $99 with free tool choice
+      {
+        "product_name": "2-Pack ONE+ 18V Battery Kit with Free Tool",
+        "price": 99.0,
+        "deal_type": "Buy One Get One Free",
+        "bundle_deal": true,
+        "required_purchase": "2-Pack ONE+ 18V Battery 2.0Ah/4.0Ah Kit",
+        "free_item": "Choice of select power tools (fan, trimmer, multi-tool, or impact driver)",
+        "deal_conditions": ["Buy battery kit to get 1 free tool", "Valid 10/27/2025-2/1/2026"]
+      }
+
 CRITICAL: Do NOT skip any deals. If you see 10 products, extract all 10. If you see 50 products, extract all 50.
+CRITICAL: Do NOT create separate deals for free items with $0 price. Bundle them with the purchase item.
 """
 
 def encode_image_to_base64(image_path):

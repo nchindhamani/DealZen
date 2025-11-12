@@ -20,10 +20,25 @@ const DealCard = ({ deal }) => {
             <span className="ml-3 text-xl text-gray-400 line-through">${deal.original_price.toFixed(2)}</span>
           )}
         </div>
+        {deal.bundle_deal && deal.free_item && (
+          <div className="mt-3 p-3 bg-green-50 border border-green-200 rounded-lg">
+            <p className="text-sm font-semibold text-green-800">🎁 Bundle Deal!</p>
+            <p className="text-xs text-green-700 mt-1">Buy this + Get: {deal.free_item}</p>
+          </div>
+        )}
       </div>
       
       {expanded && (
         <div className="p-5 border-t border-gray-100 bg-gray-50">
+          {deal.bundle_deal && deal.required_purchase && (
+            <div className="mb-3 p-3 bg-blue-50 border border-blue-200 rounded">
+              <h4 className="text-sm font-semibold text-blue-800 mb-1">📦 How to Get This Deal:</h4>
+              <p className="text-sm text-blue-700">Purchase: {deal.required_purchase}</p>
+              {deal.free_item && (
+                <p className="text-sm text-blue-700 mt-1">Get Free: {deal.free_item}</p>
+              )}
+            </div>
+          )}
           {deal.deal_conditions && deal.deal_conditions.length > 0 && (
             <div className="mb-3">
               <h4 className="text-sm font-semibold text-gray-700 mb-1">Conditions:</h4>

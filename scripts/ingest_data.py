@@ -115,6 +115,9 @@ def main():
                 "deal_conditions": deal.get("deal_conditions"),
                 "valid_from": valid_from,  # RFC3339 format with timezone
                 "valid_to": valid_to,      # RFC3339 format with timezone
+                "bundle_deal": deal.get("bundle_deal", False),  # Bundle deals
+                "required_purchase": deal.get("required_purchase"),  # What to buy
+                "free_item": deal.get("free_item"),  # What comes free
                 "full_json": json.dumps(deal),
             }
             
