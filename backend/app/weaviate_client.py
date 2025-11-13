@@ -42,8 +42,8 @@ async def perform_hybrid_search(client: weaviate.WeaviateClient, query: str):
         alpha=0.5,
         # Filter out expired deals
         filters=date_filter,
-        # Retrieve TOP 10 (increased from 5 for better coverage)
-        limit=10
+        # Retrieve TOP 20 (increased from 10 for broader price comparison)
+        limit=20
     )
     
     return [item.properties for item in response.objects]

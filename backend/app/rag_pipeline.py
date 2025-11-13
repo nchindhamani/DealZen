@@ -37,6 +37,9 @@ class RAGPipeline:
             # If no indices but GPT has an answer, show no deals (trust GPT)
             source_deals = []
         
+        # Sort deals by price (low to high) to ensure best deals appear first
+        source_deals.sort(key=lambda deal: deal.get('price', float('inf')))
+        
         return {"answer": answer, "source_deals": source_deals}
 
     def format_context(self, search_results: list[dict]):
